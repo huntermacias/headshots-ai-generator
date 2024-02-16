@@ -19,6 +19,7 @@ type Props = {
   user: User;
 }
 
+//stripe table
 const StripePricingTable = ({ user }: Props) => {
   useEffect(() => {
     const script = document.createElement('script');
