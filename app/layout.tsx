@@ -10,7 +10,6 @@ export const metadata = {
   description: "Craft your professional legacy with Elite Portraits. Leveraging advanced AI, we transform your digital presence with stunning headshots in mere moments—trusted by Fortune 500 leaders.",
 };
 
-
 export default function RootLayout({ children }:any) {
   return (
     <>
@@ -30,7 +29,7 @@ export default function RootLayout({ children }:any) {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={metadata.title} />
   <meta name="twitter:description" content={metadata.description} />
-  <meta name="twitter:image" content="/public/hero2.webp" /> {/* Replace with the path to your Twitter-specific image */}
+  <meta name="og:image" content="/public/hero2.webp" /> {/* Replace with the path to your Twitter-specific image */}
   <meta name="twitter:site" content="@huntermacias_" /> {/* Replace with your Twitter handle */}
   <meta name="twitter:creator" content="@huntermacias_" /> {/* Replace with your Twitter handle */}
 
