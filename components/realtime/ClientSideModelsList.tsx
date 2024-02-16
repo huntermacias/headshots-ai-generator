@@ -56,31 +56,34 @@ export default function ClientSideModelsList({
   }, [supabase, models, setModels]);
 
   return (
-    <div id="train-model-container" className="w-full">
-      {models && models.length > 0 && (
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-row gap-4 w-full justify-between items-center text-center">
-            <h1>Your models</h1>
-            <Link href="/overview/models/train" className="w-fit">
-              <Button size={"sm"}>
-                Train model
-              </Button>
+    <div id="train-model-container" className="max-w-7xl mx-auto p-6">
+      {models && models.length > 0 ? (
+        <div className="flex flex-col gap-8">
+          <div className="flex justify-between items-center">
+            <h1 className="text-3xl font-semibold text-gray-800 dark:text-white">Your Models</h1>
+            <Link href="/overview/models/train">
+            
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-all duration-200">
+                  Train Model
+                </Button>
+              
             </Link>
           </div>
           <ModelsTable models={models} />
         </div>
-      )}
-      {models && models.length === 0 && (
-        <div className="flex flex-col gap-4 items-center">
-          <FaImages size={64} className="text-gray-500" />
-          <h1 className="text-2xl">
+      ) : (
+        <div className="text-center py-10">
+          <FaImages size={64} className="mx-auto text-gray-400" />
+          <h1 className="text-2xl font-semibold text-gray-800 dark:text-white mt-4">
             Get started by training your first model.
           </h1>
-          <div>
-            <Link href="/overview/models/train">
-              <Button size={"lg"}>Train model</Button>
-            </Link>
-          </div>
+          <Link href="/overview/models/train">
+          
+              <Button className="mt-6 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-all duration-200">
+                Train Model
+              </Button>
+            
+          </Link>
         </div>
       )}
     </div>

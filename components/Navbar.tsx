@@ -33,56 +33,53 @@ export default async function Navbar() {
   } = await supabase.from("credits").select("*").eq("user_id", user?.id ?? '').single()
 
   return (
-    <div className="flex w-full px-4 lg:px-40 py-4 items-center border-b text-center gap-8 justify-between">
-      <div className="flex gap-2 h-full">
-        <Link href="/">
-          <h2 className="font-bold">Headshots AI</h2>
-        </Link>
+    <nav className="flex w-full px-8 lg:px-24 py-4 items-center border-b border-gray-700 bg-[#1A202C] text-white justify-between">
+      <Link href="/" passHref
+        className="text-xl font-semibold tracking-wide hover:text-[#63B3ED] transition duration-200 ease-in-out">
+          Headshots AI
+      </Link>
+      <div className="flex gap-6">
+        {user ? (
+          <>
+            <Link href="/overview" passHref>
+              <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">Home</Button>
+            </Link>
+            {stripeIsConfigured && (
+              <Link href="/get-credits" passHref>
+                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">Get Credits</Button>
+              </Link>
+            )}
+          </>
+        ) : (
+          <Link href="/login" passHref>
+            <Button  variant={'ghost'} className="bg-[#4FD1C5] hover:bg-[#38B2AC] text-black transition duration-200 ease-in-out">Login / Signup</Button>
+          </Link>
+        )}
       </div>
       {user && (
-        <div className="hidden lg:flex flex-row gap-2">
-          <Link href="/overview">
-            <Button variant={"ghost"}>Home</Button>
-          </Link>
-          {stripeIsConfigured && (
-            <Link href="/get-credits">
-              <Button variant={"ghost"}>Get Credits</Button>
-            </Link>
-          )}
+        <div className="flex items-center gap-4">
+          {stripeIsConfigured && <ClientSideCredits creditsRow={credits ? credits : null} />}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="focus:outline-none">
+                <AvatarIcon className="h-8 w-8 text-gray-400 hover:text-gray-300" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-[#2D3748] border border-gray-600 shadow-lg mt-2">
+              <DropdownMenuLabel className="p-2 font-medium text-gray-300">{user.email}</DropdownMenuLabel>
+              <DropdownMenuSeparator className="border-t border-gray-600" />
+              <form action="/auth/sign-out" method="post">
+                <DropdownMenuItem asChild>
+                  <button type="submit" className="w-full text-left p-2 hover:bg-[#4A5568] text-gray-200">
+                    Log out
+                  </button>
+                </DropdownMenuItem>
+              </form>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       )}
-      <div className="flex gap-4 lg:ml-auto">
-        {!user && (
-          <Link href="/login">
-            <Button variant={"ghost"}>Login / Signup</Button>
-          </Link>
-        )}
-        {user && (
-          <div className="flex flex-row gap-4 text-center align-middle justify-center">
-            {stripeIsConfigured && (
-              <ClientSideCredits creditsRow={credits ? credits : null} />
-            )}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild className="cursor-pointer">
-                <AvatarIcon height={24} width={24} className="text-primary" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-56">
-                <DropdownMenuLabel className="text-primary text-center overflow-hidden text-ellipsis">{user.email}</DropdownMenuLabel>
-                <DropdownMenuSeparator />
-                <form action="/auth/sign-out" method="post">
-                  <Button
-                    type="submit"
-                    className="w-full text-left"
-                    variant={"ghost"}
-                    >
-                    Log out
-                  </Button>
-                </form>
-              </DropdownMenuContent>
-            </DropdownMenu>
-          </div>
-        )}
-      </div>
-    </div>
+    </nav>
   );
+
 }
