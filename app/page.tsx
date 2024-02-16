@@ -22,6 +22,45 @@ export default async function Index() {
     return redirect("/overview");
   }
 
+  const reviews = [
+    {
+      username: "Alexis Rodriguez",
+      jobTitle: "Marketing Specialist",
+      profilePicture: "https://snapheadshots.com/_ipx/f_webp/images/solution-result-5.png", // Replace with actual image path
+      reviewImage: "https://snapheadshots.com/_ipx/f_webp/images/solution-result-5.png", // Replace with actual image path
+      reviewText: "The AI headshots were beyond my expectations. Definitely recommended!",
+    },
+    {
+      username: "Bethany Hughes",
+      jobTitle: "Graphic Designer",
+      profilePicture: "https://www.realfakephotos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsandra-novak.71d19a1c.png&w=2048&q=75", // Replace with actual image path
+      reviewImage: "https://www.realfakephotos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsandra-novak.71d19a1c.png&w=2048&q=75", // Replace with actual image path
+      reviewText: "Stunning results and super fast delivery!",
+    },
+    {
+      username: "Charles Smith",
+      jobTitle: "Software Developer",
+      profilePicture: "https://www.realfakephotos.com/_next/image?url=%2Fimages%2Fusers%2Fyoung-man.png&w=256&q=75", // Replace with actual image path
+      reviewImage: "https://www.realfakephotos.com/_next/image?url=%2Fimages%2Fusers%2Fyoung-man.png&w=256&q=75", // Replace with actual image path
+      reviewText: "I was skeptical at first, but now I'm a believer. These AI-generated headshots are top-notch.",
+    },
+    {
+      username: "Sarah Marks",
+      jobTitle: "@Sarah_Mark12",
+      profilePicture: "https://kpstudios.com/wp-content/uploads/2022/02/linkedin-headshot_kp-studios26.jpg", // Replace with actual image path
+      reviewImage: "https://kpstudios.com/wp-content/uploads/2022/02/linkedin-headshot_kp-studios26.jpg", // Replace with actual image path
+      reviewText: "Professional headshots that align perfectly with my personal brand.",
+    },
+    {
+      username: "Jeremy Wright",
+      jobTitle: "@JeremyRealOne",
+      profilePicture: "https://snapheadshots.com/_ipx/f_webp/images/first-photo-1-1.png", // Replace with actual image path
+      reviewImage: "https://snapheadshots.com/_ipx/f_webp/images/first-photo-1-1.png", // Replace with actual image path
+      reviewText: "Incredible quality. I used my headshot for LinkedIn and got so many compliments!",
+    },
+    // Add more review objects as needed
+  ];
+
 
   return (
     <div className="flex flex-col items-center pt-16 bg-[#121212] text-[#E0E0E0] min-h-screen">
@@ -35,11 +74,11 @@ export default async function Index() {
           </p>
           <div className="flex flex-col space-y-4">
             <Link href="/login">
-            
-                <Button className="w-full lg:w-auto px-8 py-3 bg-gradient-to-r from-[#667eea] to-[#764ba2] hover:from-[#764ba2] hover:to-[#667eea] transition-colors duration-300 ease-in-out transform hover:-translate-y-1">
-                  Get Your Headshots
-                </Button>
-              
+
+              <Button className="w-full lg:w-auto px-8 py-3 bg-gradient-to-r from-[#667eea] to-[#764ba2] hover:from-[#764ba2] hover:to-[#667eea] transition-colors duration-300 ease-in-out transform hover:-translate-y-1">
+                Get Your Headshots
+              </Button>
+
             </Link>
             <p className="text-sm text-[#A0A0A0] italic">
               Trusted by professionals worldwide. Quick and efficient.
@@ -49,10 +88,12 @@ export default async function Index() {
             <span>Already a member? </span>
             <Link href="/login"
               className="text-[#76e0f7] hover:text-[#d783ff] transition-colors duration-300 ease-in-out">
-                Sign In
+              Sign In
             </Link>
           </div>
+
         </div>
+
         <div className="lg:w-1/2 w-full mt-8 lg:mt-0">
           <img
             src={hero.src}
@@ -61,8 +102,68 @@ export default async function Index() {
           />
         </div>
       </div>
+
+
+
+      <div className="bg-[#191919] py-16 border-t border-b border-primary rounded-xl">
+        <h2 className="text-4xl font-extrabold text-center text-white mb-12">
+          What People Are Saying
+        </h2>
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+          {/* Array of review objects */}
+          {reviews.map((review, index) => (
+            <div key={index} className="bg-[#1A202C]/80 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
+              <div className="flex items-center space-x-4">
+                <img
+                  src={review.profilePicture}
+                  alt={review.username}
+                  className="w-16 h-16 rounded-full object-cover border-2 border-white"
+                />
+                <div>
+                  <h5 className="text-xl font-semibold text-white">{review.username}</h5>
+                  <p className="text-sm text-gray-400">{review.jobTitle}</p>
+                </div>
+              </div>
+              <p className="text-md text-gray-300 mt-4">{review.reviewText}</p>
+              <img
+                src={review.reviewImage}
+                alt="User review"
+                className="mt-4 rounded-lg object-cover shadow-sm"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-10 w-full bg-[#1A202C] py-6 rounded-xl">
+        <h2 className="text-3xl font-semibold text-center text-[#EDEDED] mb-10">Trusted by Leading Professionals</h2>
+        <div className="flex justify-center items-center gap-6 flex-wrap max-w-8xl ">
+          {/* Grid container for logos with advanced hover effects and dynamic layout */}
+          {[
+            "/logos/tesla.webp",
+            "/logos/microsoft.png",
+            "/logos/apple.png",
+            "/logos/chase.png",
+            "/logos/disney.png",
+            // Add more logo paths as needed
+          ].map((logo, index) => (
+            <div key={index} className="group h-16 w-32 m-8 rounded-lg flex items-center justify-center overflow-hidden shadow-xl transform transition scale-110 duration-500 hover:scale-130 hover:bg-[#161B22]">
+              <img
+                src={logo}
+                alt={`Company Logo ${index + 1}`}
+                className="h-full w-auto transition-transform duration-700 group-hover:scale-110"
+              />
+            </div>
+          ))}
+        </div>
+
+      </div>
+
+
+
       <ExplainerSection />
       <PricingSection />
+
     </div>
   );
 }
