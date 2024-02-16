@@ -33,7 +33,6 @@ export default function PricingSection() {
             </div>
             <div className="mt-10 text-center">
               <Link href="/login">
-                
                   <Button className="w-3/4 bg-[#646FD4] hover:bg-[#5a62d4] text-white transition-colors duration-300">
                     {option.buttonText}
                   </Button>

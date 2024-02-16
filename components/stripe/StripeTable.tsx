@@ -32,12 +32,13 @@ const StripePricingTable = ({ user }: Props) => {
       document.body.removeChild(script);
     }
   }, []);
+  console.log('loading stripe table')
 
   return (
     <div className='flex flex-1 flex-col w-full'>
-      <stripe-pricing-table 
-      pricing-table-id="prctbl_1OkHrCIG6b6d28mMnsSqPDkY"
-      publishable-key="pk_live_51OFqIMIG6b6d28mMp7NKobhuby3UHndRxAPgU7yn0VDfzwPaBFa3fdob4i4RJVM2auFCIb75INfHtzTy9U1nOF0q00xoFsQB5i"
+      <stripe-pricing-table
+        pricing-table-id="prctbl_1OkHrCIG6b6d28mMnsSqPDkY"
+        publishable-key="pk_live_51OFqIMIG6b6d28mMp7NKobhuby3UHndRxAPgU7yn0VDfzwPaBFa3fdob4i4RJVM2auFCIb75INfHtzTy9U1nOF0q00xoFsQB5i"
         client-reference-id={user.id}
         customer-email={user.email}
       >
