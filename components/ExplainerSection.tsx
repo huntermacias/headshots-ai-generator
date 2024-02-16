@@ -5,7 +5,7 @@ import result from '/public/result.png';
 
 export default function ExplainerSection() {
   return (
-    <div className="w-full max-w-6xl mt-16 p-8 bg-[#111111] rounded-lg space-y-8 border-t border-b border-[#2a2938]">
+    <div className="w-full max-w-6xl mt-6 md:mt-16 p-8 bg-[#111111] rounded-lg space-y-8 border-t border-b border-[#2a2938]">
       <h2 className="text-4xl font-bold text-center text-[#EDEDED] mb-8">How It Works</h2>
 
       {/* Step 1: Upload your images */}

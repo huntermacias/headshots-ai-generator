@@ -63,7 +63,7 @@ export default async function Index() {
 
 
   return (
-    <div className="flex flex-col items-center pt-16 bg-[#121212] text-[#E0E0E0] min-h-screen">
+    <div className="flex flex-col items-center pt-6 md:pt-16 bg-[#121212] text-[#E0E0E0] min-h-screen">
       <div className="flex flex-col lg:flex-row items-center gap-12 p-8 max-w-7xl w-full">
         <div className="flex flex-col space-y-6 lg:w-1/2 w-full">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#76e0f7] to-[#d783ff]">
