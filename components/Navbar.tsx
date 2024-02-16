@@ -42,11 +42,15 @@ export default async function Navbar() {
         {user ? (
           <>
             <Link href="/overview" passHref>
-              <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">Home</Button>
+              <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">
+                Home
+              </Button>
             </Link>
             {stripeIsConfigured && (
               <Link href="/get-credits" passHref>
-                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">Get Credits</Button>
+                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">
+                  Get Credits
+                </Button>
               </Link>
             )}
           </>

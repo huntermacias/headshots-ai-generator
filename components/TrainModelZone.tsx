@@ -145,7 +145,7 @@ export default function TrainModelZone() {
       const responseMessage: string = responseData.message;
       console.error("Something went wrong! ", responseMessage);
       const messageWithButton = (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
           {responseMessage}
           <a href="/get-credits">
             <Button size="sm">Get Credits</Button>

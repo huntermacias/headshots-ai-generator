@@ -74,7 +74,7 @@ export default function ClientSideModelsList({
       ) : (
         <div className="text-center py-10">
           <FaImages size={64} className="mx-auto text-gray-400" />
-          <h1 className="text-2xl font-semibold text-gray-800 dark:text-white mt-4">
+          <h1 className="text-2xl font-semibold text-white dark:text-white mt-4">
             Get started by training your first model.
           </h1>
           <Link href="/overview/models/train">

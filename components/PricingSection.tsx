@@ -11,6 +11,7 @@ export default function PricingSection() {
             key={index}
             className={`flex flex-col border-2 border-[#333333] rounded-lg p-6 w-full md:w-1/3 lg:w-1/4 ${option.bgColor} hover:shadow-xl transition-all duration-300`}
           >
+            <p>{option.icon}</p>
             <div className="flex-grow space-y-4">
               <h3 className="text-2xl font-semibold text-center text-[#EDEDED]">
                 {option.title}
