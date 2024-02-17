@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function PricingSection() {
   return (
-    <div className="w-full max-w-6xl mx-auto mt-16 mb-16 p-8 bg-[#111111] rounded-lg space-y-8 border-t border-b border-[#2a2938]">
+    <div className="w-full max-w-6xl mx-auto mt-16 mb-16 p-8 bg-gradient-to-r from-black/70 to-[#171717] rounded-lg space-y-8 border-t border-b border-[#2a2938]">
       <h2 className="text-4xl font-bold text-center text-[#EDEDED] mb-8">Pricing</h2>
       <div className="flex flex-wrap justify-center gap-6 items-stretch">
         {pricingOptions.map((option, index) => (

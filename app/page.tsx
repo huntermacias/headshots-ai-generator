@@ -8,8 +8,35 @@ import hero from "/public/hero2.webp";
 import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
 import PricingSection from "@/components/PricingSection";
+import Image from "next/image";
 
 export const dynamic = "force-dynamic";
+
+const logos = [
+  { src: '/fortune500-logos/001.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/002.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/003.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/012.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/016.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/028.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/032.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/033.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/052.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/081.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/083.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/193.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/443.png', width: 128, height: 64 },
+
+  { src: '/fortune500-logos/014.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/187.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/264.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/267.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/286.png', width: 128, height: 64 },
+  { src: '/fortune500-logos/314.png', width: 128, height: 64 },
+
+  // Add more logos here
+];
+
 
 export default async function Index() {
   const supabase = createServerComponentClient({ cookies });
@@ -108,7 +135,7 @@ export default async function Index() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
           {/* Array of review objects */}
           {reviews.map((review, index) => (
-            <div key={index} className="bg-[#1A202C]/80 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
+            <div key={index} className="bg-gradient-to-r from-black/70 to-[#171717] backdrop-blur-xl rounded-xl p-6 shadow-xl border border-gray-700 hover:border-blue-500 transition-all duration-300">
               <div className="flex items-center space-x-4">
                 <img
                   src={review.profilePicture}
@@ -131,29 +158,20 @@ export default async function Index() {
         </div>
       </div>
 
-      <div className="mt-10 w-full bg-[#1A202C] py-6 rounded-xl">
-        <h2 className="text-3xl font-semibold text-center text-[#EDEDED] mb-10">Trusted by Leading Professionals</h2>
-        <div className="flex justify-center items-center gap-6 flex-wrap max-w-8xl ">
-          {/* Grid container for logos with advanced hover effects and dynamic layout */}
-          {[
-            "/logos/tesla.webp",
-            "/logos/microsoft.png",
-            "/logos/apple.png",
-            "/logos/chase.png",
-            "/logos/disney.png",
-            // Add more logo paths as needed
-          ].map((logo, index) => (
-            <div key={index} className="group h-16 w-32 m-8 rounded-lg flex items-center justify-center overflow-hidden shadow-xl transform transition scale-110 duration-500 hover:scale-130 hover:bg-[#161B22]">
-              <img
-                src={logo}
-                alt={`Company Logo ${index + 1}`}
-                className="h-full w-auto transition-transform duration-700 group-hover:scale-110"
-              />
-            </div>
-          ))}
+      <div className="mt-10 w-full bg-gradient-to-r from-black/70 to-[#171717] py-6 rounded-xl mb-4 overflow-hidden">
+        <h2 className="text-3xl font-semibold text-center text-white mb-10">Trusted by Leading Professionals</h2>
+        <div className="logos overflow-x-auto whitespace-nowrap">
+          <div className="logos-slide animate-slide flex flex-row items-center justify-center gap-x-12 md:gap-x-16 lg:gap-x-20 2xl:gap-x-28">
+            {logos.map((logo, index) => (
+              <div key={index} className="inline-flex drop-shadow-lg lg:drop-shadow-2xl min-w-[128px]"> {/* Adjust the min-width to match your desired logo width */}
+                <Image src={logo.src} alt={`Logo ${index + 1}`} width={logo.width} height={logo.height} layout="intrinsic" />
+              </div>
+            ))}
+          </div>
         </div>
-
       </div>
+
+
 
 
 

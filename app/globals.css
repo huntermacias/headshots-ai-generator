@@ -52,3 +52,54 @@ html, body{
     --ring: 224.3 76.3% 48%;
   }
 }
+
+
+/* explanation section */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translatey(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.animate-pulseSlow {
+  animation: pulseSlow 3s infinite;
+}
+
+/* end of explanation section */
+
+
+
+/* carousel for logos */
+/* Custom CSS for logo carousel */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos-slide {
+  animation: 25s slide infinite linear;
+}
+
+/*  */
