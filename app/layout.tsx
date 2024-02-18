@@ -14,17 +14,17 @@ export const metadata = {
   description: "Craft your professional legacy with Elite Portraits. Leveraging advanced AI, we transform your digital presence with stunning headshots in mere moments—trusted by Fortune 500 leaders.",
   colorScheme: 'dark',
   creator: 'Headshot Hub',
-  image: 'https://headshothub.vercel.app/_next/static/media/hero2.da43727a.webp',
+  image: 'https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg',
   icons: {
-    icon: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Replace with your icon link
-    shortcut: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Replace with your shortcut icon link
-    apple: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Replace with your Apple touch icon link
+    icon: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Replace with your icon link
+    shortcut: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Replace with your shortcut icon link
+    apple: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Replace with your Apple touch icon link
     other: {
       rel: 'elite-image',
-      url: 'https://headshothub.vercel.app/_next/static/media/hero2.da43727a.webp',
+      url: 'https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg',
     },
   },
-  icon: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Duplicate; consider if needed or adjust based on usage
+  icon: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Duplicate; consider if needed or adjust based on usage
   twitter: {
     card: 'summary_large_image',
     title: "Elite Portraits | AI-Driven Headshot Revolution",
@@ -32,7 +32,7 @@ export const metadata = {
     siteId: '1467726470533754880',
     creator: 'huntermacias_',
     creatorId: '1467726470533754880',
-    images: ['https://headshothub.vercel.app/_next/static/media/hero2.da43727a.webp'],
+    images: ['https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg'],
   },
 }
 
