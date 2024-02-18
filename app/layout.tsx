@@ -41,10 +41,19 @@ export default function RootLayout({ children }: any) {
   return (
     <>
       <head>
+         {/* Add these tags for social media previews */}
+        <meta property="og:title" content="Elite Portraits | AI-Driven Headshot Revolution" />
+        <meta property="og:description" content="Craft your professional legacy with Elite Portraits. Leveraging advanced AI, we transform your digital presence with stunning headshots in mere moments—trusted by Fortune 500 leaders." />
+        <meta name="image" property="og:image" content="https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg" />
+        <meta name="author" content="Hunter Macias"></meta>
+        <meta property="og:url" content="https://headshothub.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Elite Headshots" />
+
+        <meta name="twitter:card" content={metadata.twitter.description} />
         <meta name="twitter:title" content={metadata.twitter.title} />
         <meta name="twitter:description" content={metadata.twitter.description} />
         <meta name="twitter:image" content={metadata.twitter.images[0]} />
-        <meta name="twitter:card" content={metadata.twitter.description} />
       </head>
 
       <body className="min-h-screen flex flex-col bg-[#121212] text-[#E0E0E0] font-inter">
