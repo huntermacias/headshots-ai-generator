@@ -14,14 +14,14 @@ export const metadata = {
   description: "Craft your professional legacy with Elite Portraits. Leveraging advanced AI, we transform your digital presence with stunning headshots in mere moments—trusted by Fortune 500 leaders.",
   colorScheme: 'dark',
   creator: 'Headshot Hub',
-  image: '/hero2.png',
+  image: 'https://headshothub.vercel.app/_next/static/media/hero2.da43727a.webp',
   icons: {
     icon: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Replace with your icon link
     shortcut: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Replace with your shortcut icon link
     apple: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Replace with your Apple touch icon link
     other: {
       rel: 'elite-image',
-      url: '/hero2.png',
+      url: 'https://headshothub.vercel.app/_next/static/media/hero2.da43727a.webp',
     },
   },
   icon: 'https://img.freepik.com/premium-photo/abstract-human-head-made-wooden-elements-3d-render-illustration_856795-13207.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1700611200&semt=ais', // Duplicate; consider if needed or adjust based on usage
@@ -32,7 +32,7 @@ export const metadata = {
     siteId: '1467726470533754880',
     creator: 'huntermacias_',
     creatorId: '1467726470533754880',
-    images: ['/hero2.png'],
+    images: ['https://headshothub.vercel.app/_next/static/media/hero2.da43727a.webp'],
   },
 }
 
