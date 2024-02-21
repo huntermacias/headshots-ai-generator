@@ -46,21 +46,23 @@ const CategoryPage = () => {
           ))}
         </div>
       </div> */}
-  <h2 className="text-4xl font-bold mb-8 decoration-pink-500/80 underline decoration-wavy underline-offset-8 text-pink-600">
+  <h2 className="text-5xl font-extrabold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600">
     {`IMAGES | ${searchParams.toString().replace('-', ' ').slice(5).toUpperCase()}`}
   </h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     {images.map((url, index) => (
       <div
         key={index}
-        className="group overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out"
+        className="group overflow-hidden rounded-xl shadow-2xl hover:shadow-pink-500/50 transform hover:-translate-y-2 transition duration-500 ease-in-out"
       >
         <img
           src={url}
           alt={`Image ${index}`}
-          className="w-full h-auto object-cover transition duration-300 ease-in-out group-hover:brightness-75"
+          className="w-full h-auto object-cover transition duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-1"
         />
-        <div className="absolute inset-0 bg-pink-600 bg-opacity-0 group-hover:bg-opacity-25 transition duration-300 ease-in-out"></div>
+        <div className="opacity-0 group-hover:opacity-100 absolute inset-0 bg-gradient-to-br from-pink-500/10 to-purple-500/10 flex justify-center items-center transition duration-500 ease-in-out">
+          <span className="text-white text-lg font-semibold border rounded-md px-3 hover:bg-transparent/80 cursor-pointer">View</span>
+        </div>
       </div>
     ))}
   </div>
