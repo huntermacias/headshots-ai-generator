@@ -13,7 +13,7 @@ type ImageData = {
 const CategoryPage = () => {
   const searchParams = useSearchParams();
   const [images, setImages] = useState<string[]>([]);
-  console.log('searchParams', searchParams);
+  // console.log('searchParams', searchParams);
 
   useEffect(() => {
     const pack = searchParams.get('pack'); // Get the 'pack' query parameter

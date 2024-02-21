@@ -435,15 +435,6 @@
             "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=75/https://r2-us-west.photoai.com/1706016903-c56e64fdf95d4a9c3efb322d58446c2d-8.jpg",
             "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=75/https://r2-us-west.photoai.com/1706674677-74553bc2094d1577592f5ad2dc72d387-1.jpg",
             "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=75/https://r2-us-west.photoai.com/1706674649-23bec6e5fb46d15151ad23d2a3aa1da1-2.jpg",
-
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1705978617-f50ba77728901a9399305b71df98ea53-11.jpg",
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1706027713-865b5aa1bece3d8a6eda43d8ac269ef9-16.jpg",
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1706658367-af2baf323c66865408c86fa3a89ec5be-4.jpg",
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1705988886-969470a3cb8b45547a197b7b41412191-2.jpg",
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1705987027-d1fbdf28c63de499ba6bdf3432b9692e-2.jpg",
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1705987216-1543b95cc7ac383332446f4881920b1d-4.jpg",
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1706675946-96cc8d158ae5f4da76d3cdf308e4638a-12.jpg",
-            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=50/https://r2-us-west.photoai.com/1706675862-3dbf30931135dc9d86be27979467adb1-8.jpg",
         
             "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=85/https://r2-us-west.photoai.com/1706016882-c9d78245637df975fe691603ff9b5945-15.jpg",
             "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=50/https://r2-us-west.photoai.com/1706674691-29ec914c292f1c3ab826fd51c1d94474-8.jpg"

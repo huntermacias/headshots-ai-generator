@@ -1,7 +1,7 @@
 //app/gallery/page.tsx
-import React from 'react';
-import  imageData  from './galleryData';
 import GalleryCard from '@/components/galleryCard';
+import React from 'react';
+import imageData from './galleryData';
 
 const Gallery = () => {
   // Example titles, descriptions, etc., should be replaced with your actual data
