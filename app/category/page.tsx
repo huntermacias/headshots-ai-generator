@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import imageData from '../gallery/galleryData';
 
+
 // Define the expected structure of the imageData object
 type ImageData = {
   images: {
@@ -11,6 +12,7 @@ type ImageData = {
 };
 
 const CategoryPage = () => {
+
   const searchParams = useSearchParams();
   const [images, setImages] = useState<string[]>([]);
   // console.log('searchParams', searchParams);
