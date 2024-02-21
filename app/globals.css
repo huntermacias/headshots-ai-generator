@@ -102,4 +102,35 @@ html, body{
   animation: 25s slide infinite linear;
 }
 
+/* Gallery.css */
+
+.perspective-container {
+  perspective: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  justify-items: center;
+  overflow: hidden; /* To handle any overflow from the rotated images */
+}
+
+.angled-image {
+  width: 100px; /* Fixed width for images */
+  height: auto;
+  transition: transform 0.5s;
+  transform: rotateY(-10deg) rotateX(20deg) rotate3d(1, 1, 5, 20deg);
+  transform-origin: bottom right; /* Adjust the transform origin to match perspective origin */
+}
+
+/* Adjust the keyframes to create a smooth back-and-forth movement */
+@keyframes moveBack {
+  0%, 100% {
+    transform: translateZ(0) rotateY(-10deg) rotateX(10deg);
+  }
+  50% {
+    transform: translateZ(-30px) rotateY(-10deg) rotateX(10deg);
+  }
+}
+
+
+
+
 /*  */

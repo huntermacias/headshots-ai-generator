@@ -55,9 +55,15 @@ export default async function Navbar() {
             )}
           </>
         ) : (
-          <Link href="/login" passHref>
-            <Button  variant={'ghost'} className="bg-[#4FD1C5] hover:bg-[#38B2AC] text-black transition duration-200 ease-in-out">Login / Signup</Button>
+          <div className="space-x-4">
+            <Link href="/gallery" passHref>
+            <Button variant={'ghost'} className="bg-[#4FD1C5] hover:bg-[#38B2AC] text-black transition duration-200 ease-in-out">Gallery</Button>
           </Link>
+            <Link href="/login" passHref>
+              <Button  variant={'ghost'} className="bg-[#4FD1C5] hover:bg-[#38B2AC] text-black transition duration-200 ease-in-out">Login / Signup</Button>
+            </Link>
+
+          </div>
         )}
       </div>
       {user && (

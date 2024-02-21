@@ -54,6 +54,7 @@
     "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.46.1",
     "react-icons": "^4.11.0",
+    "react-router-dom": "^6.22.1",
     "resend": "^1.0.0",
     "stripe": "^13.6.0",
     "tailwind-merge": "^1.14.0",
