@@ -1,7 +1,5 @@
-import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-import { cookies } from "next/headers";
+'use client'
 import Link from "next/link";
-import { redirect } from "next/navigation";
 
 import hero from "/public/hero2.webp";
 
@@ -9,6 +7,10 @@ import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
 import PricingSection from "@/components/PricingSection";
 import Image from "next/image";
+
+import { useEffect, useState } from "react";
+import { useUser } from "@/lib/useUser";
+
 
 export const dynamic = "force-dynamic";
 
@@ -37,16 +39,19 @@ const logos = [
   // Add more logos here
 ];
 
+export default function Index() {
+  const { user, loading } = useUser(); // This hook would manage fetching user state client-side.
 
-export default async function Index() {
-  const supabase = createServerComponentClient({ cookies });
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   if (user) {
-    return redirect("/overview");
+    // Client-side redirection can be handled differently in Next.js. Here's an example:
+    useEffect(() => {
+      window.location.href = "/overview"; // Consider using Next.js router for client-side navigation.
+    }, [user]);
+    return <div>Redirecting...</div>;
   }
 
   const reviews = [
