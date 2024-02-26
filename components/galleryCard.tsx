@@ -6,9 +6,9 @@ const GalleryCard = ({ title, description, numPhotos, timesSelected, imageUrls, 
 
   // Use the first two image URLs passed via props, or default images if not enough images are provided
   const displayImageUrls = imageUrls.urls.length >= 2 ? imageUrls.urls.slice(0, 2) : imageUrls.concat(Array(2 - imageUrls.length).fill(baseUrl + 'default.jpg'));
-
+  console.log(displayImageUrls);
   return (
-    <Link href={`/category/${encodeURIComponent(slug)}`} passHref
+    <Link href={`/category/${slug}`} passHref
       className="block w-full bg-black bg-opacity-80 rounded-xl overflow-hidden shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-500 ease-in-out">
         <div className='flex justify-center mt-4 space-x-2'>
           {displayImageUrls.map((url:string, index:number) => (

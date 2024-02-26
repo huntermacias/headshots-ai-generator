@@ -229,24 +229,24 @@ export default async function Index() {
 
 
       <ExplainerSection />
-      <div className="max-w-7xl mx-auto p-4 lg:p-8">
-      <h2 className="text-2xl lg:text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 mb-6">
-        Discover Our Collections
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {Object.entries(imageData.images).map(([key, urls], index) => (
-          <GalleryCard
-            key={index}
-            title={`${key.replace('-', ' ').toUpperCase()} COLLECTION`}
-            description={urls.description || "Explore this captivating collection."} // Fallback description if none provided
-            numPhotos={urls.urls.length}
-            timesSelected={`${Math.floor(Math.random() * (55 - 4 + 1) + 4)}`} // Random example
-            imageUrls={urls.urls.slice(0, 2)} // Display only the first image as a teaser
-            slug={`pack=${key}`}
-          />
-        ))}
-      </div>
-    </div>
+      {/* <div className="max-w-7xl mx-auto p-4 lg:p-8">
+        <h2 className="text-2xl lg:text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 mb-6">
+          Discover Our Collections
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {Object.entries(imageData.images).map(([key, urls], index) => (
+            <GalleryCard
+              key={index}
+              title={`${key.replace('-', ' ').toUpperCase()} COLLECTION`}
+              description={urls.description || "Explore this captivating collection."} // Fallback description if none provided
+              numPhotos={urls.urls.length}
+              timesSelected={`${Math.floor(Math.random() * (55 - 4 + 1) + 4)}`} // Random example
+              imageUrls={urls.urls.slice(0, 2)} // Display only the first image as a teaser
+              slug={`pack=${key}`}
+            />
+          ))}
+        </div>
+      </div> */}
       <PricingSection />
 
     </div>
