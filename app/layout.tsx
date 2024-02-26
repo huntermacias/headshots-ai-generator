@@ -5,6 +5,8 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 import { Suspense } from "react";
 
+export const dynamic = 'force-dynamic'
+
 export const metadata = {
   viewport: {
     width: 'device-width',
