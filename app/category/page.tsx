@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import imageData from '../gallery/galleryData';
+import { imageData } from '@/lib/galleryData';
 
 
 // Define the expected structure of the imageData object

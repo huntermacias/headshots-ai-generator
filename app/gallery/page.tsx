@@ -1,16 +1,13 @@
-//app/gallery/page.tsx
-import GalleryCard from '@/components/galleryCard';
+//app/pages/gallery/page.tsx
 import React from 'react';
-import imageData from './galleryData';
-import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
-import { Database } from '@/types/supabase';
-import { cookies } from "next/headers";
+import GalleryCard from '../../components/galleryCard';
+import { imageData } from '@/lib/galleryData';
 
 export const dynamic = "force-dynamic";
 
 const Gallery = () => {
+  
   // Example titles, descriptions, etc., should be replaced with your actual data
-  const supabase = createServerComponentClient<Database>({ cookies });
 
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
@@ -19,9 +16,9 @@ const Gallery = () => {
           key={index}
           title={`${key.replace('-', ' ').toUpperCase()} SETS`}
           description={`Description for ${key}`}
-          numPhotos={urls.length}
-          timesSelected={`${Math.floor(Math.random() * (55 - 4 + 1) + 4)}`} // Example usage, replace with actual data
-          imageUrls={urls}
+          numPhotos={(urls as string[]).length} // Type annotation added to resolve the 'unknown' type error
+          timesSelected={88}
+          imageUrls={urls as string[]} // Type annotation added to resolve the 'unknown' type error
           slug={`pack=${key}`}
         />
       ))}

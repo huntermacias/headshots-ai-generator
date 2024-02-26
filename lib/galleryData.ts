@@ -1,9 +1,15 @@
 
+// Define the structure of your image data using TypeScript interfaces or types
+type ImageData = {
+    images: {
+      [category: string]: string[];
+    };
+  };
+  
 
 
 
-
- const imageData = {
+export const imageData: ImageData = {
     "images": {
         "naughty-christmas": [
             "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=75/https://r2-us-west.photoai.com/1706658360-a6dabec809175fb1b9ceed3c6190a5a3-3.jpg",
@@ -1226,7 +1232,4 @@
             "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=50/https://r2-us-west.photoai.com/1705987329-aa6fce9570c59929069fd9f4121c04c9-11.jpg"
         ]
     }
-}
-
-
-export default imageData
+};
