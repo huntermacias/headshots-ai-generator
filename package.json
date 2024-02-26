@@ -44,6 +44,7 @@
     "cmdk": "^0.2.0",
     "file-loader": "^6.2.0",
     "formidable": "^3.5.1",
+    "keen-slider": "^6.8.6",
     "lucide-react": "^0.274.0",
     "next": "13.4",
     "next-multipart": "^0.5.1",
@@ -69,4 +70,4 @@
     "@types/react-dom": "18.2.5",
     "encoding": "^0.1.13"
   }
-} 
+}

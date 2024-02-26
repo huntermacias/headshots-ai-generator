@@ -14,48 +14,44 @@ export const dynamic = "force-dynamic";
 
 export default async function Login() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-      <form
-        className="w-full max-w-md space-y-8"
-        action="/auth/sign-in"
-        method="post"
-      >
-        <Card className="overflow-hidden shadow-md">
-          <CardHeader>
-            <CardTitle>Log In / Sign Up</CardTitle>
-            <CardDescription>
-              Log into your account or sign up to get started.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-6">
+    <div className="flex flex-col items-center justify-center min-h-screen rounded-lg bg-gradient-to-r from-gray-950 to-indigo-950 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-md space-y-8 brightness-125 opacity-80 bg-black bg-opacity-80 p-6 rounded-xl shadow-2xl border border-gray-700">
+        <h2 className="mt-6 text-center text-3xl font-extrabold text-white">Log In / Sign Up</h2>
+        <p className="mt-2 text-center text-sm text-gray-400">
+          Log into your account or sign up to get started.
+        </p>
+        <form className="mt-8 space-y-6" action="/auth/sign-in" method="post">
+          <div className="rounded-md shadow-sm -space-y-px">
             <div>
-              <Label htmlFor="email">Email Address</Label>
+              <label htmlFor="email" className="sr-only">Email Address</label>
               <input
                 type="email"
                 name="email"
                 id="email"
-                className="mt-1 block w-full px-3 text-gray-200 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                placeholder="you@example.com"
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-500 placeholder-gray-500 text-white rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Email address"
                 required
               />
             </div>
-            <Button className="w-full">Continue</Button>
-            <Messages />
-          </CardContent>
-          <CardFooter>
-            <p className="text-sm text-center">
-              By signing up, you agree to our
-              <a href="#" className="mx-1 underline hover:text-indigo-500">
-                Terms of Service
-              </a>
-              and
-              <a href="#" className="mx-1 underline hover:text-indigo-500">
-                Privacy Policy
-              </a>.
-            </p>
-          </CardFooter>
-        </Card>
-      </form>
+          </div>
+  
+          <div>
+            <button
+              type="submit"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              Continue
+            </button>
+          </div>
+        </form>
+        <div className="mt-6 text-center text-sm text-gray-400">
+          By signing up, you agree to our
+          <a href="#" className="underline text-white hover:text-indigo-500"> Terms of Service </a>
+          and
+          <a href="#" className="underline text-white hover:text-indigo-500"> Privacy Policy</a>.
+        </div>
+      </div>
     </div>
   );
+  
 }

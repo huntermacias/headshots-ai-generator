@@ -14,7 +14,7 @@ const Gallery = () => {
       {Object.entries(imageData.images).map(([key, urls], index) => (
         <GalleryCard
           key={index}
-          title={`${key.replace('-', ' ').toUpperCase()} SETS`}
+          title={`${key.replace('-', ' ').toUpperCase()} COLLECTION`}
           description={urls.description}
           numPhotos={urls.urls.length} // Convert expression to 'unknown' first
           timesSelected={index + 1 + Math.floor(Math.random() * (55 - 4 + 1) + 4)}

@@ -33,62 +33,63 @@ export default async function Navbar() {
   } = await supabase.from("credits").select("*").eq("user_id", user?.id ?? '').single()
 
   return (
-    <nav className="flex w-full px-8 lg:px-24 py-4 items-center border-b border-gray-700 bg-[#1A202C] text-white justify-between">
+    <nav className="flex w-full text-sm px-6 lg:px-20 py-3 border-b border-gray-600 items-center justify-between bg-black/30 shadow-md">
       <Link href="/" passHref
-        className="text-xl font-semibold tracking-wide hover:text-[#63B3ED] transition duration-200 ease-in-out">
-          Headshots AI
+        className="text-lg font-bold text-blue-500 hover:text-blue-600/70 transition duration-300 ease-in-out">
+          Headshot Hub | AI Portraits
+        
       </Link>
-      <div className="flex gap-6">
+      <div className="flex items-center gap-4">
         {user ? (
           <>
-            <Link href="/overview" passHref>
-              <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">
-                Home
-              </Button>
+            <Link href="/overview" passHref
+              className="text-teal-500 bg-transparent hover:bg-teal-100 py-2 px-4 rounded-full transition ease-in-out duration-300">
+                Dashboard
+              
             </Link>
             {stripeIsConfigured && (
-              <Link href="/get-credits" passHref>
-                <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black transition duration-200 ease-in-out">
+              <Link href="/get-credits" passHref
+                className="text-teal-500 bg-transparent hover:bg-teal-100 py-2 px-4 rounded-full transition ease-in-out duration-300">
                   Get Credits
-                </Button>
+                
               </Link>
             )}
           </>
         ) : (
-          <div className="space-x-4">
-            <Link href="/gallery" passHref>
-            <Button variant={'ghost'} className="bg-[#4FD1C5] hover:bg-[#38B2AC] text-black transition duration-200 ease-in-out">Gallery</Button>
-          </Link>
-            <Link href="/login" passHref>
-              <Button  variant={'ghost'} className="bg-[#4FD1C5] hover:bg-[#38B2AC] text-black transition duration-200 ease-in-out">Login / Signup</Button>
+          <>
+            <Link href="/gallery" passHref
+              className="text-blue-500 hover:bg-teal-500/30 py-1 px-2 rounded-md transition ease-in-out duration-300">
+                Gallery
+              
             </Link>
-
-          </div>
+            <Link href="/login" passHref
+              className="text-blue-500 hover:bg-teal-500/30 py-1 px-2 rounded-md transition ease-in-out duration-300">
+                Login / Signup
+              
+            </Link>
+          </>
         )}
-      </div>
-      {user && (
-        <div className="flex items-center gap-4">
-          {stripeIsConfigured && <ClientSideCredits creditsRow={credits ? credits : null} />}
+        {user && (
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button className="focus:outline-none">
-                <AvatarIcon className="h-8 w-8 text-gray-400 hover:text-gray-300" />
+                <AvatarIcon className="h-8 w-8 text-teal-500 hover:text-teal-600" />
               </button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-[#2D3748] border border-gray-600 shadow-lg mt-2">
-              <DropdownMenuLabel className="p-2 font-medium text-gray-300">{user.email}</DropdownMenuLabel>
-              <DropdownMenuSeparator className="border-t border-gray-600" />
+            <DropdownMenuContent className="bg-white border border-gray-200 shadow-xl mt-2">
+              <DropdownMenuLabel className="p-2 font-medium text-gray-700">{user.email}</DropdownMenuLabel>
+              <DropdownMenuSeparator className="border-t border-gray-200" />
               <form action="/auth/sign-out" method="post">
                 <DropdownMenuItem asChild>
-                  <button type="submit" className="w-full text-left p-2 hover:bg-[#4A5568] text-gray-200">
+                  <button type="submit" className="w-full text-left p-2 hover:bg-teal-50 text-gray-700">
                     Log out
                   </button>
                 </DropdownMenuItem>
               </form>
             </DropdownMenuContent>
           </DropdownMenu>
-        </div>
-      )}
+        )}
+      </div>
     </nav>
   );
 
