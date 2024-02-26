@@ -8,7 +8,7 @@ const GalleryCard = ({ title, description, numPhotos, timesSelected, imageUrls, 
   const baseUrl = 'https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=128,height=192,quality=100/https://r2-us-west.photoai.com/';
 
   // Use the first two image URLs passed via props, or default images if not enough images are provided
-  const displayImageUrls = imageUrls.length >= 2 ? imageUrls.slice(0, 2) : imageUrls.concat(Array(2 - imageUrls.length).fill(baseUrl + 'default.jpg'));
+  const displayImageUrls = imageUrls.urls.length >= 2 ? imageUrls.urls.slice(0, 2) : imageUrls.concat(Array(2 - imageUrls.length).fill(baseUrl + 'default.jpg'));
 
   return (
     <Link href={`/category?${slug}`} passHref>

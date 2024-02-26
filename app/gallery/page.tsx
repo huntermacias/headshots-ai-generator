@@ -15,10 +15,10 @@ const Gallery = () => {
         <GalleryCard
           key={index}
           title={`${key.replace('-', ' ').toUpperCase()} SETS`}
-          description={`Description for ${key}`}
-          numPhotos={(urls as string[]).length} // Type annotation added to resolve the 'unknown' type error
-          timesSelected={88}
-          imageUrls={urls as string[]} // Type annotation added to resolve the 'unknown' type error
+          description={urls.description}
+          numPhotos={urls.urls.length} // Convert expression to 'unknown' first
+          timesSelected={index + 1 + Math.floor(Math.random() * (55 - 4 + 1) + 4)}
+          imageUrls={urls as unknown as string[]} // Convert expression to 'unknown' first
           slug={`pack=${key}`}
         />
       ))}

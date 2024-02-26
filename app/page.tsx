@@ -184,7 +184,7 @@ export default async function Index() {
           key={index}
           title={`${key.replace('-', ' ').toUpperCase()} SETS`}
           description={`Description for ${key}`}
-          numPhotos={urls.length}
+          numPhotos={urls.urls.length}
           timesSelected={`${Math.floor(Math.random() * (55 - 4 + 1) + 4)}`} // Example usage, replace with actual data
           imageUrls={urls}
           slug={`pack=${key}`}
