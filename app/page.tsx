@@ -183,7 +183,7 @@ export default async function Index() {
         <GalleryCard
           key={index}
           title={`${key.replace('-', ' ').toUpperCase()} SETS`}
-          description={`Description for ${key}`}
+          description={urls.description}
           numPhotos={urls.urls.length}
           timesSelected={`${Math.floor(Math.random() * (55 - 4 + 1) + 4)}`} // Example usage, replace with actual data
           imageUrls={urls}
