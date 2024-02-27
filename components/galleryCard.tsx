@@ -1,4 +1,4 @@
-// Assuming you're using TypeScript; adjust types accordingly if not
+// Adjust the imports and interface as necessary
 import Link from 'next/link';
 import React from 'react';
 
@@ -25,21 +25,20 @@ const GalleryCard: React.FC<GalleryCardProps> = ({
     : [...imageUrls.urls, ...Array(2 - imageUrls.urls.length).fill(baseUrl + 'default.jpg')];
 
   return (
+        <Link href={`/category?pack=${slug}`}>
     <div className="block w-full bg-black bg-opacity-80 rounded-xl overflow-hidden shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-500 ease-in-out">
-      <Link href={`/category/${slug}`}>
-        <a className='flex justify-center mt-4 space-x-2'>
-          {displayImageUrls.map((url, index) => (
+      {/* Updated Link usage */}
+      <div className='flex justify-center mt-4 space-x-2'>
+        {displayImageUrls.map((url, index) => (
             <img
-              key={index}
               loading="lazy"
               src={url}
               alt={`Image ${index + 1}`}
               width="120"
-              className='rounded-lg opacity-60 hover:opacity-100 transition-all duration-300 ease-in-out transform hover:scale-105'
+              className='rounded-lg opacity-60 hover:opacity-100 transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer'
             />
-          ))}
-        </a>
-      </Link>
+            ))}
+      </div>
       <div className="px-6 py-4">
         <h3 className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mb-2">
           {title.toUpperCase()}
@@ -57,6 +56,7 @@ const GalleryCard: React.FC<GalleryCardProps> = ({
         </span>
       </div>
     </div>
+            </Link>
   );
 };
 

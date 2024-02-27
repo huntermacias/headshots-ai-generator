@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
@@ -47,9 +48,9 @@ export default async function Login() {
         </form>
         <div className="mt-6 text-center text-sm text-gray-400">
           By signing up, you agree to our
-          <a href="#" className="underline text-white hover:text-indigo-500"> Terms of Service </a>
+          <Link href="#" className="underline text-white hover:text-indigo-500"> Terms of Service </Link>
           and
-          <a href="#" className="underline text-white hover:text-indigo-500"> Privacy Policy</a>.
+          <Link href="#" className="underline text-white hover:text-indigo-500"> Privacy Policy</Link>.
         </div>
       </div>
     </div>
