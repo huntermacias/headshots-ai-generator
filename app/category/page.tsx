@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { imageData } from '@/lib/galleryData';
 import Link from 'next/link';
+import { ArrowLeftSquare } from 'lucide-react';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const CategoryPage = () => {
   const searchParams = useSearchParams();
@@ -103,35 +105,41 @@ const CategoryPage = () => {
         </div>
       </div>
 
-      <div className="mt-5 flex justify-between items-center">
+      <div className="flex flex-col items-center mt-5">
+      {/* Navigation Buttons */}
+      <div className="flex justify-between items-center w-full px-4">
         <button
           onClick={() => handleImageChange(currentImageIndex - 1)}
           disabled={currentImageIndex === 0}
-          className="text-red-500 z-50 disabled:text-gray-500 px-4 text-xl font-bold"
+          className="p-3 rounded-full bg-white text-red-500 shadow-lg disabled:bg-gray-200 disabled:text-gray-500"
+          aria-label="Previous Image"
         >
-          {'<'}
+          <FaArrowLeft size={24} />
         </button>
-
-        <div className="relative z-10 mt-8 flex justify-between items-center">
-          {relatedImages.map((url, index) => (
-            <img
-              key={index}
-              src={url}
-              alt={`Related Image ${index}`}
-              className="w-32 h-48 opacity-70 hover:opacity-100 object-cover rounded-md cursor-pointer border-2 border-transparent hover:border-pink-500 shadow-xl hover:shadow-pink-500/50 transition-all duration-300 ease-in-out"
-              onClick={() => handleImageChange(index + 1)}
-            />
-          ))}
-        </div>
-
         <button
           onClick={() => handleImageChange(currentImageIndex + 1)}
           disabled={currentImageIndex === images.length - 1}
-          className="text-red-500 z-50 disabled:text-gray-500 px-4 text-xl font-bold"
+          className="p-3 rounded-full bg-white text-red-500 shadow-lg disabled:bg-gray-200 disabled:text-gray-500"
+          aria-label="Next Image"
         >
-          {'>'}
+          <FaArrowRight size={24} />
         </button>
       </div>
+
+      {/* Image Gallery Carousel */}
+      <div className="relative mt-8 flex snap-x overflow-x-auto scrollbar-hide">
+        {images.map((url, index) => (
+          <img
+            key={index}
+            src={url}
+            alt={`Related Image ${index}`}
+            className="snap-center w-32 h-48 opacity-70 hover:opacity-100 object-cover rounded-md cursor-pointer m-2 border-2 border-transparent hover:border-pink-500 shadow-xl hover:shadow-pink-500/50 transition-all duration-300 ease-in-out"
+            onClick={() => handleImageChange(index)}
+          />
+        ))}
+      </div>
+    </div>
+
     </div>
   );
 
