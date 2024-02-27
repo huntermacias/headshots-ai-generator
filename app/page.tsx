@@ -125,6 +125,15 @@ export default async function Index() {
         </div>
       </div>
 
+    
+
+
+
+
+
+      <ExplainerSection />
+      <PricingSection />
+
       <div className="w-full lg:w-screen px-4 py-8 relative">
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           Popular Headshot Collections
@@ -138,13 +147,6 @@ export default async function Index() {
           ))}
         </div>
       </div>
-
-
-
-
-
-      <ExplainerSection />
-      <PricingSection />
 
     </div>
   );
