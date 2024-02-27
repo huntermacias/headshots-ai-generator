@@ -5,7 +5,7 @@ import result from '/public/result.png';
 
 export default function ExplainerSection() {
   return (
-    <div className="min-h-screen rounded-md text-white py-16 flex flex-col items-center justify-center bg-opacity-80 space-y-10 backdrop-filter backdrop-blur mb-10 ">
+    <div className=" rounded-md text-white flex flex-col m-28 items-center justify-center bg-opacity-20 space-y-10 ">
       {/* Video introduction */}
       <div className="rounded-lg shadow-xl overflow-hidden w-full max-w-5xl mx-auto">
         <video

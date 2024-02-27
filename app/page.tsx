@@ -4,40 +4,36 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 import hero from "/public/hero2.webp";
-
-import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
 import PricingSection from "@/components/PricingSection";
 import Image from "next/image";
-import GalleryCard from "@/components/galleryCard";
 import { imageData } from "@/lib/galleryData";
+
+import { Testimonials } from "@/components/Testimonials";
 
 export const dynamic = "force-dynamic";
 
 const logos = [
   { src: '/fortune500-logos/001.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/002.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/003.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/012.png', width: 128, height: 64 },
   { src: '/fortune500-logos/016.png', width: 128, height: 64 },
   { src: '/fortune500-logos/028.png', width: 128, height: 64 },
   { src: '/fortune500-logos/032.png', width: 128, height: 64 },
   { src: '/fortune500-logos/033.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/052.png', width: 128, height: 64 },
   { src: '/fortune500-logos/081.png', width: 128, height: 64 },
   { src: '/fortune500-logos/083.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/193.png', width: 128, height: 64 },
   { src: '/fortune500-logos/443.png', width: 128, height: 64 },
-
-  { src: '/fortune500-logos/014.png', width: 128, height: 64 },
   { src: '/fortune500-logos/187.png', width: 128, height: 64 },
   { src: '/fortune500-logos/264.png', width: 128, height: 64 },
   { src: '/fortune500-logos/267.png', width: 128, height: 64 },
   { src: '/fortune500-logos/286.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/314.png', width: 128, height: 64 },
 
   // Add more logos here
 ];
+
+const imageUrl = "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=75/https://r2-us-west.photoai.com/1706661114-6ace0ed476eb32dd8e5f7c36b5af1949-2.jpg";
+const allUrls = Object.values(imageData.images).flatMap(imagePack => imagePack.urls);
+const shuffledUrls = allUrls.sort(() => 0.5 - Math.random());
+let selectedUrls = shuffledUrls.slice(0, 38);
 
 
 export default async function Index() {
@@ -51,62 +47,7 @@ export default async function Index() {
     return redirect("/overview");
   }
 
-  const reviews = [
-    {
-      username: "Alexis Rodriguez",
-      jobTitle: "Marketing Specialist",
-      profilePicture: "https://snapheadshots.com/_ipx/f_webp/images/solution-result-5.png", // Replace with actual image path
-      reviewImage: "https://snapheadshots.com/_ipx/f_webp/images/solution-result-5.png", // Replace with actual image path
-      reviewText: "The AI headshots were beyond my expectations. Definitely recommended!",
-      date: "January 28, 2024",
-      rating: 5,
-    },
-    {
-      username: "Bethany Hughes",
-      jobTitle: "Graphic Designer",
-      profilePicture: "https://www.realfakephotos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsandra-novak.71d19a1c.png&w=2048&q=75", // Replace with actual image path
-      reviewImage: "https://www.realfakephotos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsandra-novak.71d19a1c.png&w=2048&q=75", // Replace with actual image path
-      reviewText: "Stunning results and super fast delivery!",
-      date: "February 4, 2024",
-      rating: 5,
 
-
-    },
-    {
-      username: "Charles Smith",
-      jobTitle: "Software Developer",
-      profilePicture: "https://www.realfakephotos.com/_next/image?url=%2Fimages%2Fusers%2Fyoung-man.png&w=256&q=75", // Replace with actual image path
-      reviewImage: "https://www.realfakephotos.com/_next/image?url=%2Fimages%2Fusers%2Fyoung-man.png&w=256&q=75", // Replace with actual image path
-      reviewText: "I was skeptical at first, but now I'm a believer. These AI-generated headshots are top-notch.",
-      date: "February 3, 2024",
-      rating: 4.8,
-
-
-    },
-    {
-      username: "Sarah Marks",
-      jobTitle: "@Sarah_Mark12",
-      profilePicture: "https://kpstudios.com/wp-content/uploads/2022/02/linkedin-headshot_kp-studios26.jpg", // Replace with actual image path
-      reviewImage: "https://kpstudios.com/wp-content/uploads/2022/02/linkedin-headshot_kp-studios26.jpg", // Replace with actual image path
-      reviewText: "Professional headshots that align perfectly with my personal brand.",
-      date: "February 2, 2024",
-      rating: 5,
-
-
-    },
-    {
-      username: "Jeremy Wright",
-      jobTitle: "@JeremyRealOne",
-      profilePicture: "https://snapheadshots.com/_ipx/f_webp/images/first-photo-1-1.png", // Replace with actual image path
-      reviewImage: "https://snapheadshots.com/_ipx/f_webp/images/first-photo-1-1.png", // Replace with actual image path
-      reviewText: "Incredible quality. I used my headshot for LinkedIn and got so many compliments!",
-      date: "February 15, 2024",
-      rating: 5,
-
-
-    },
-    // Add more review objects as needed
-  ];
 
 
   return (
@@ -154,46 +95,7 @@ export default async function Index() {
 
       <div className="bg-black/80 mt-16 border-t border-b border-primary rounded-xl">
 
-        <div className="max-w-5xl mx-auto px-6 py-12">
-          <h2 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mb-10">
-            What Our Users Say
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {reviews.map((review, index) => (
-              <div key={index} className="bg-black bg-opacity-80 rounded-xl p-6 shadow-lg hover:shadow-2xl border border-gray-600 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="flex items-center space-x-4 mb-4">
-                  <img
-                    src={review.profilePicture}
-                    alt={review.username}
-                    className="w-16 h-16 rounded-full object-cover ring-2 ring-purple-600"
-                  />
-                  <div>
-                    <h5 className="text-xl font-semibold text-white">{review.username}</h5>
-                    <p className="text-sm text-gray-400">{review.jobTitle}</p>
-                  </div>
-                </div>
-                <p className="text-md text-gray-300 leading-relaxed">{review.reviewText}</p>
-                <div className="mt-4">
-                  <img
-                    src={review.reviewImage}
-                    alt="User review"
-                    className="rounded-lg object-cover shadow-md transition-transform duration-300 ease-in-out hover:scale-105"
-                  />
-                </div>
-                <div className="flex justify-between items-center mt-4">
-                  <div className="flex items-center">
-                    {Array.from({ length: review.rating }, (_, i) => (
-                      <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.049 3a1 1 0 00-.9 1.555l1.95 3.9-4.2.612a1 1 0 00-.55 1.7l3.048 2.97-.72 4.19a1 1 0 001.45 1.05L10 15.51l3.75 1.97a1 1 0 001.45-1.05l-.72-4.19 3.048-2.97a1 1 0 00-.55-1.7l-4.2-.613 1.95-3.9A1 1 0 0010.951 3z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <span className="text-xs text-gray-400">Reviewed on {review.date}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <Testimonials />
 
 
       </div>
@@ -222,6 +124,23 @@ export default async function Index() {
           </div>
         </div>
       </div>
+
+      <div className="w-full lg:w-screen px-4 py-8 relative">
+        <h2 className="text-4xl font-bold text-center text-white mb-12">
+          Popular Headshot Collections
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2">
+          {selectedUrls.map((imageUrl: string, index: number) => (
+            <div className={`transform hover:scale-105 hover:rotate-2 hover:brightness-125 hover:ring-gray-500 ring ring-gray-950 ${index % 2 ? "translate-y-1/2" : "translate-y-0"} overflow-hidden rounded-lg shadow-lg relative`} key={index}>
+              <img className="w-full h-full object-contain rounded-lg transition duration-150 ease-in-out opacity-70 hover:opacity-100" src={imageUrl} alt="Image description" />
+            </div>
+            
+          ))}
+        </div>
+      </div>
+
+
+
 
 
       <ExplainerSection />
