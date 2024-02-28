@@ -49,7 +49,7 @@ export default function RootLayout({ children }: any) {
         <meta name="description" content="Craft your professional legacy with Elite Portraits. Leveraging advanced AI, we transform your digital presence with stunning headshots in mere moments—trusted by Fortune 500 leaders." />
         <meta property="og:title" content="Elite Portraits | AI-Driven Headshot Revolution" />
         <meta property="og:description" content="Craft your professional legacy with Elite Portraits. Leveraging advanced AI, we transform your digital presence with stunning headshots in mere moments—trusted by Fortune 500 leaders." />
-        <meta name="image" property="og:image" content="https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg" />
+        <meta name="image" property="og:image" content="https://i.imgur.com/2GTz1vH.png" />
         <meta name="author" content="Hunter Macias" />
         <meta property="og:url" content="https://headshothub.vercel.app/" />
         <meta property="og:type" content="website" />
@@ -57,7 +57,7 @@ export default function RootLayout({ children }: any) {
         <meta name="twitter:card" content={metadata.twitter.description} />
         <meta name="twitter:title" content={metadata.twitter.title} />
         <meta name="twitter:description" content={metadata.twitter.description} />
-        <meta name="twitter:image" content={metadata.twitter.images[0]} />
+        <meta name="twitter:image" content='https://i.imgur.com/2GTz1vH.png' />
       </Head>
 
       <body className="min-h-screen flex flex-col bg-black/80 text-white font-sans">
