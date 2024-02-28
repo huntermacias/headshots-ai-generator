@@ -58,6 +58,7 @@ export default function RootLayout({ children }: any) {
         <meta name="twitter:title" content={metadata.twitter.title} />
         <meta name="twitter:description" content={metadata.twitter.description} />
         <meta name="twitter:image" content='https://i.imgur.com/2GTz1vH.png' />
+        <meta name="google-site-verification" content="Lp0KrHcd3_ppfo5PnwlqV2qALjCn1UDt15EXcg4Fc-w" />
       </Head>
 
       <body className="min-h-screen flex flex-col bg-black/80 text-white font-sans">
