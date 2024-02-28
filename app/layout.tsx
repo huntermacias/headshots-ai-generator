@@ -17,17 +17,17 @@ export const metadata = {
   description: "Craft your professional legacy with Elite Portraits. Leveraging advanced AI, we transform your digital presence with stunning headshots in mere moments—trusted by Fortune 500 leaders.",
   colorScheme: 'dark',
   creator: 'Headshot Hub',
-  image: 'https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg',
+  image: 'https://i.imgur.com/2GTz1vH.png',
   icons: {
-    icon: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Replace with your icon link
-    shortcut: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Replace with your shortcut icon link
-    apple: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Replace with your Apple touch icon link
+    icon: 'https://i.imgur.com/2GTz1vH.png',
+    shortcut: 'https://i.imgur.com/2GTz1vH.png', 
+    apple: 'https://i.imgur.com/2GTz1vH.png', 
     other: {
       rel: 'elite-image',
-      url: 'https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg',
+      url: 'https://i.imgur.com/2GTz1vH.png',
     },
   },
-  icon: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', // Duplicate; consider if needed or adjust based on usage
+  icon: 'https://img.freepik.com/premium-photo/flat-color-camera-logo-vector_946471-1626.jpg', 
   twitter: {
     card: 'summary_large_image',
     title: "Elite Portraits | AI-Driven Headshot Revolution",
@@ -35,7 +35,7 @@ export const metadata = {
     siteId: '1467726470533754880',
     creator: 'huntermacias_',
     creatorId: '1467726470533754880',
-    images: ['https://www.unite.ai/wp-content/uploads/2023/09/Alex_Mc_business_headshots._diverse_group_of_8_people._hyper-re_6afd794c-60bb-46d7-b8fd-3681e6cb36ef.jpg'],
+    images: ['https://i.imgur.com/2GTz1vH.png'],
   },
 }
 
