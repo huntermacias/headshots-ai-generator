@@ -801,13 +801,7 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980329-e1781467170d4aa35b36e3c2316f455a-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673386-79cd942dd67f895651f164ba41a9be1e-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673653-102fdc5ba4e107ce86c3d1a9f7aabebe-3.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705978617-f50ba77728901a9399305b71df98ea53-11.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706027713-865b5aa1bece3d8a6eda43d8ac269ef9-16.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706658367-af2baf323c66865408c86fa3a89ec5be-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705988886-969470a3cb8b45547a197b7b41412191-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705987027-d1fbdf28c63de499ba6bdf3432b9692e-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705987216-1543b95cc7ac383332446f4881920b1d-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706675862-3dbf30931135dc9d86be27979467adb1-8.jpg",
+               
 
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706027776-0e920f774228056d25f441c99c80a24e-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706673632-0456f458bdfb6f327081ad6ca8d2d552-1.jpg"
