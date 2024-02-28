@@ -56,15 +56,16 @@ export default function ClientSideModelsList({
   }, [supabase, models, setModels]);
 
   return (
-    <div id="train-model-container" className="max-w-7xl mx-auto p-6">
+    <div id="train-model-container" className="max-w-7xl mx-auto px-6 py-8 bg-white dark:bg-gray-900">
       {models && models.length > 0 ? (
-        <div className="flex flex-col gap-8">
+        <div className="space-y-8">
           <div className="flex justify-between items-center">
-            <h1 className="text-3xl font-semibold text-gray-800 dark:text-white">Your Models</h1>
+            <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100">Your Models</h1>
             <Link href="/overview/models/train">
-            
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-all duration-200">
-                  Train Model
+              
+                <Button className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md shadow hover:shadow-lg transition-all ease-in-out duration-300">
+                  <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4"></path></svg>
+                  Train New Model
                 </Button>
               
             </Link>
@@ -72,14 +73,14 @@ export default function ClientSideModelsList({
           <ModelsTable models={models} />
         </div>
       ) : (
-        <div className="text-center py-10">
+        <div className="text-center py-12">
           <FaImages size={64} className="mx-auto text-gray-400" />
-          <h1 className="text-2xl font-semibold text-white dark:text-white mt-4">
-            Get started by training your first model.
+          <h1 className="text-3xl font-semibold text-gray-800 dark:text-gray-100 mt-6">
+            Get Started by Training Your First Model
           </h1>
           <Link href="/overview/models/train">
-          
-              <Button className="mt-6 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-all duration-200">
+            
+              <Button className="mt-8 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-md shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                 Train Model
               </Button>
             
