@@ -56,7 +56,7 @@ export default function ClientSideModelsList({
   }, [supabase, models, setModels]);
 
   return (
-    <div id="train-model-container" className="max-w-7xl mx-auto px-6 py-8 bg-white dark:bg-gray-900">
+    <div id="train-model-container" className="max-w-7xl mx-auto px-6 py-8 bg-transparent">
       {models && models.length > 0 ? (
         <div className="space-y-8">
           <div className="flex justify-between items-center">
