@@ -105,6 +105,22 @@ const pricingOptions = [
     bgColor: "bg-[#0D0C1D] border-[#5D5D81] hover:bg-[#1D1C31] hover:border-green-700 hover:shadow-lg hover:shadow-[#34D399]/50",
     icon: "👑", // Suggestion: Replace with an SVG for a more professional appearance
   },
+  {
+    title: "Elite Enterprise",
+    price: "$124.99",
+    description: "Our best offer, designed for unlimited creative exploration.",
+    features: [
+      "200+ Professional Headshots",
+      "50 Models Included",
+      "24/7 Support",
+      "Revision Credits",
+      "Priority Processing",
+      "Post-Edit Revisions"
+    ],
+    buttonText: "Go Elite",
+    bgColor: "bg-[#0D0C1D] border-[#5D5D81] hover:bg-[#1D1C31] hover:border-green-700 hover:shadow-lg hover:shadow-[#34D399]/50",
+    icon: "👑", // Suggestion: Replace with an SVG for a more professional appearance
+  },
 ];
 
 

@@ -69,6 +69,9 @@ const reviews = [
 ];
 
 export const Testimonials = (props: Props) => {
+
+  
+
     return (
         <div className=" py-8">
         <div className="max-w-5xl mx-auto px-4">
