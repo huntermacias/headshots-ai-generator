@@ -32,7 +32,6 @@ const logos = [
   // Add more logos here
 ];
 
-const imageUrl = "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=75/https://r2-us-west.photoai.com/1706661114-6ace0ed476eb32dd8e5f7c36b5af1949-2.jpg";
 const allUrls = Object.values(imageData.images).flatMap(imagePack => imagePack.urls);
 const shuffledUrls = allUrls.sort(() => 0.5 - Math.random());
 let selectedUrls = shuffledUrls.slice(0, 38);
