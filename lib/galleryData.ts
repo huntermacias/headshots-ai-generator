@@ -226,7 +226,7 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665462-3f6cfbae03659d55b5d45fdecd977cbc-7.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665420-f126759f80e350d6494ec82178a0529c-15.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987834-9c11e5b496f6c1a92c539d9972ed5eb3-9.jpg",
-                "https://phÂtoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987918-e92e98bbdafd8fb1ee889ab9780faae0-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987918-e92e98bbdafd8fb1ee889ab9780faae0-5.jpg",
                 "https://photoai.comcdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987834-9c11e5b496f6c1a92c539d9972ed5eb3-12.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665455-01068a2d0cc5d0dd394534f64569b3d5-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987925-f0049514e0926cafe75497bda5645f18-2.jpg",
