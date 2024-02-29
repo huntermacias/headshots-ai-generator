@@ -6,6 +6,12 @@ const nextConfig = {
   images: {
     domains: ['photoai.com'],
   },
+
+  async generateMetadata() {
+    return {
+      metadataBase: 'https://headshothub.vercel.app',
+    };
+  },
   
 }
 
