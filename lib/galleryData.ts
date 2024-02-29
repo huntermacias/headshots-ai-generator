@@ -21,6 +21,7 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658184-95e507b09665a03deef604f3fbf59644-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988732-c2006fb88a4a70053ef347941e502d26-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658213-8928dbddabd554344f3042ccfa4d8d2c-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706658332-d154ee16aa8a4fadd522febb044ba118-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658149-435f4968d7d3a6e748407892519c8443-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988865-1472c934b766ae00a8272b6937754c19-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658353-a4290cd3a0ece74e698e069f345518ca-1.jpg",
@@ -93,9 +94,9 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706658416-cedc5116a140bbbbf096ada75928fb44-1.jpg"
             ],
         },
-            "old_money": {
-                description: "Step into the luxurious life of old wealth. Elegance, sophistication, and timeless fashion converge in this collection, celebrating the opulent lifestyle of the past.",
-                urls: [
+        "old_money": {
+            description: "Step into the luxurious life of old wealth. Elegance, sophistication, and timeless fashion converge in this collection, celebrating the opulent lifestyle of the past.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706663723-09371e69e7f78f315de84c89df6aebd9-6.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027685-b0b8073e89cabb0eea3a37fcb374e0e5-12.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027664-ed97365733cb9e6e128adaaaafdabbf4-11.jpg",
@@ -131,9 +132,9 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706021545-229242dc52270a68daab0c725c7d0fd4-10.jpg"
             ],
         },
-            "ai_yearbook": {
-                  description: "Create the ultimate memento with AI Yearbook. Turn your memories into stunning visuals that capture the essence of your school years with a modern twist.",
-                  urls: [
+        "ai_yearbook": {
+            description: "Create the ultimate memento with AI Yearbook. Turn your memories into stunning visuals that capture the essence of your school years with a modern twist.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978849-746b60b8df6d11ad95e467d51761464b-12.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021952-199730a5daa41d0aded45d6a6a08e1b0-6.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978919-bf3b625b74b336ccbcd36944a23d0e0e-1.jpg",
@@ -168,10 +169,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706675932-500a1b823910dfb8fcb3c49e128ec2ee-5.jpg"
             ]
         },
-        
-            "y2k_esthetic": {
-              description: "Relive the dawn of the millennium with the Y2K Aesthetic pack. Bold colors, futuristic designs, and early digital age vibes await.",
-              urls: [
+
+        "y2k_esthetic": {
+            description: "Relive the dawn of the millennium with the Y2K Aesthetic pack. Bold colors, futuristic designs, and early digital age vibes await.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662131-c1b11c8597a2c0b07697a8f643e92963-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988549-52933ee4c3c2295298b4e2effcad286f-7.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988598-29230e4dc5b71efb35cb1b5b2fd1d83a-12.jpg",
@@ -207,10 +208,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706662110-ebced959eb50c5f0ab347ea45b92393b-11.jpg"
             ],
         },
-      
-            "gorpcore": {
-              description: "Embrace the great outdoors with style. Gorpcore combines function with fashion, perfect for the adventurer who wants to look good in any terrain.",
-              urls: [
+
+        "gorpcore": {
+            description: "Embrace the great outdoors with style. Gorpcore combines function with fashion, perfect for the adventurer who wants to look good in any terrain.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665469-a105694a74a0542219f539cefbcbd19c-7.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665448-0fee3f3e0168ab62414225dc13794c9d-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987911-c971b273db8fcb639236a0d58e84e9bf-15.jpg",
@@ -225,41 +226,185 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665462-3f6cfbae03659d55b5d45fdecd977cbc-7.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665420-f126759f80e350d6494ec82178a0529c-15.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987834-9c11e5b496f6c1a92c539d9972ed5eb3-9.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987918-e92e98bbdafd8fb1ee889ab9780faae0-5.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987834-9c11e5b496f6c1a92c539d9972ed5eb3-12.jpg",
+                "https://phÂtoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987918-e92e98bbdafd8fb1ee889ab9780faae0-5.jpg",
+                "https://photoai.comcdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987834-9c11e5b496f6c1a92c539d9972ed5eb3-12.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665455-01068a2d0cc5d0dd394534f64569b3d5-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987925-f0049514e0926cafe75497bda5645f18-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665448-0fee3f3e0168ab62414225dc13794c9d-9.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665448-0fee3f3e0168ab62414225dc13794c9d-8.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665455-01068a2d0cc5d0dd394534f64569b3d5-16.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665434-c4cdc41a85523e93a82b0fecb2370343-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987827-7af3219085ce2243b3089b29a455e4d6-10.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665406-8c2e5d513bc98f228a695caacfe8982a-15.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987932-a7145c1f52eddfdb4bd3f832acee5da3-12.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987855-9b235b60b99ac6ba6d0553fc542164e6-14.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665413-f4c8b3c7cd13d63453055b12b558e7e4-10.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987827-7af3219085ce2243b3089b29a455e4d6-5.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665434-c4cdc41a85523e93a82b0fecb2370343-9.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987862-8524b9b4245a00f40725224dd2d00888-12.jpg",
 
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1705987841-4c20a659e8be153a57446873d4aa35ac-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706665385-b8d9be944c81cba228881bd2a8830354-9.jpg"
             ],
-            },
-           
-                "tinder": {
-                  description: "Make your profile irresistible with the Tinder pack. Curate photos that showcase your charm, wit, and personality, sparking that instant connection.",
-                  urls: [
+        },
+        "Maternity": {
+            description: "Celebrate the miracle of life with the Maternity pack. Capture the beauty of pregnancy with these stunning looks.",
+            urls: [
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675968-74397f206c345387d4b1270a14afa446-12.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982328-1bf2e4c1565a222ab23df2ee442874f8-1.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676017-a28af5f966191dd124664988ff5b89dd-6.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675968-74397f206c345387d4b1270a14afa446-2.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982328-1bf2e4c1565a222ab23df2ee442874f8-11.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982307-de5197e969a8dd1df06c304228cdf66f-15.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982321-e56460652464278305c396dc7b96aef6-14.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676017-a28af5f966191dd124664988ff5b89dd-9.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982335-1bb272acb1bd35044d7c696ded589434-16.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982300-6540f1f2765fb322efcb79d14dca123c-4.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982300-6540f1f2765fb322efcb79d14dca123c-8.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982300-6540f1f2765fb322efcb79d14dca123c-15.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676010-638a4e5fc5133ead2b23784bc58c5d12-6.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676017-a28af5f966191dd124664988ff5b89dd-3.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675982-5833532772851164031cf881d1f562d4-9.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675975-c1575632a3e73967773448640425078e-6.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982335-1bb272acb1bd35044d7c696ded589434-14.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982342-94ca0341d1eea15e1137f815525795bb-4.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982349-a5cd53f99d86cc3db8fe4597ee8db139-16.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676010-638a4e5fc5133ead2b23784bc58c5d12-2.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676017-a28af5f966191dd124664988ff5b89dd-14.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982349-a5cd53f99d86cc3db8fe4597ee8db139-14.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676003-62566090b8e620f19217a60354a099c3-10.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675968-74397f206c345387d4b1270a14afa446-5.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982314-e04bac519b49e30107e84854f0592ec6-8.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675996-df3df289c5235749d65a8a6e1b52072d-11.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982349-a5cd53f99d86cc3db8fe4597ee8db139-6.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676017-a28af5f966191dd124664988ff5b89dd-8.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982321-e56460652464278305c396dc7b96aef6-15.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982321-e56460652464278305c396dc7b96aef6-4.jpg",
+    
+
+            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1705982335-1bb272acb1bd35044d7c696ded589434-5.jpg",
+            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705982335-1bb272acb1bd35044d7c696ded589434-2.jpg"
+            ]
+        },
+        "Snow_Bunny": {
+            description: "Get ready for the slopes with the Sexy Snow Bikini pack. Show off your curves and style with these stunning winter looks.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985813-717acddb70ce1dce241b19426ac96a75-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985806-74447959faf6a3029c8fb06712bd82c7-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985813-717acddb70ce1dce241b19426ac96a75-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985862-06783fcb23b1fa436f65f7efdbe9e91d-14.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985834-7150f66af85c0e11affa0b905e329dc7-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985799-023af143ed02792e4946884311d9f8e3-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985799-023af143ed02792e4946884311d9f8e3-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985841-9ad737ff9d7e0b764f010dca0625ebe6-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985834-7150f66af85c0e11affa0b905e329dc7-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985869-a94a0304626c4692962c1571f0767833-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985862-06783fcb23b1fa436f65f7efdbe9e91d-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=75/https://r2-us-west.photoai.com/1705985799-023af143ed02792e4946884311d9f8e3-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985841-9ad737ff9d7e0b764f010dca0625ebe6-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985869-a94a0304626c4692962c1571f0767833-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985799-023af143ed02792e4946884311d9f8e3-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985792-3ebe52c23f941aa2d8e1ff84775a2be0-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985869-a94a0304626c4692962c1571f0767833-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985792-3ebe52c23f941aa2d8e1ff84775a2be0-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985834-7150f66af85c0e11affa0b905e329dc7-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985806-74447959faf6a3029c8fb06712bd82c7-7.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985806-74447959faf6a3029c8fb06712bd82c7-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985813-717acddb70ce1dce241b19426ac96a75-15.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985792-3ebe52c23f941aa2d8e1ff84775a2be0-14.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985841-9ad737ff9d7e0b764f010dca0625ebe6-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985813-717acddb70ce1dce241b19426ac96a75-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985813-717acddb70ce1dce241b19426ac96a75-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985869-a94a0304626c4692962c1571f0767833-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985841-9ad737ff9d7e0b764f010dca0625ebe6-14.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985862-06783fcb23b1fa436f65f7efdbe9e91d-9.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985799-023af143ed02792e4946884311d9f8e3-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985813-717acddb70ce1dce241b19426ac96a75-2.jpg",
+    
+             
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1705985806-74447959faf6a3029c8fb06712bd82c7-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705985862-06783fcb23b1fa436f65f7efdbe9e91d-13.jpg"
+            ]
+        },
+        "Mob_Wife": {
+            description: "Get ready for the Mob Wife pack. Show off your curves and style with these stunning looks.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014890-0becb4cddceebff5e4aab66a2aa6d3c8-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014883-8aa3b8e8549fb6a4c1a614a7564c91f6-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014876-1a9632a13f52a3041c3ea8741b404642-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014876-1a9632a13f52a3041c3ea8741b404642-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014876-1a9632a13f52a3041c3ea8741b404642-14.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014848-ddb0788013cd46ea13a8532aa14382d6-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706663667-6610f5bd46c66fa7b9bdb6a7443f4db9-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014855-8514a23b2cb839725100429574892b3d-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706014848-ddb0788013cd46ea13a8532aa14382d6-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705977677-7c485bb40ce375d56d8a3376c485d136-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706014855-8514a23b2cb839725100429574892b3d-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706014848-ddb0788013cd46ea13a8532aa14382d6-2.jpg"
+            ]
+        },
+        "Pre_Wedding_Engagement": {
+            description: "Celebrate your love with the Pre-Wedding Engagement pack. Capture the magic of your engagement with these stunning looks.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982258-6c17c5679c2d4aaf7bee34d784f27df2-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982251-ddb7735d65b6547f9454b44a29646c31-15.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666584-607099d1672ae8069877a9bf5ffe3614-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666563-607f05eb071f95a5117352bb7c9dcf59-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666563-607f05eb071f95a5117352bb7c9dcf59-14.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666549-11649df052725ceddd526c0663602400-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982216-3d3819d00e6bc47c61bc642329fca58e-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982286-11e41f708ec3598af0544c2540c504ac-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666563-607f05eb071f95a5117352bb7c9dcf59-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020059-aa69a874a678405ac14fa41ba7e917f5-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666577-53a530429631ceb81eb8e74be255beae-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666641-fd1df8162afa490bc18c8e702521287a-15.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666599-9efc3da40ed83aaa6e71038ce4686f7a-9.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666556-ca27bb727387f597d90f443e5f9add4a-15.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982202-22362eee9d871606cd4fd4ff509156f8-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666549-11649df052725ceddd526c0663602400-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982244-9a8a9b94a073f8d076119cc591773909-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982286-11e41f708ec3598af0544c2540c504ac-9.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982244-9a8a9b94a073f8d076119cc591773909-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020052-de5021996c2a1690e19a35415c8870e1-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666549-11649df052725ceddd526c0663602400-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982237-d44a924d41188150755b4db909193909-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020052-de5021996c2a1690e19a35415c8870e1-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666591-a646183dc5204325ca8c23670481d2c4-9.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666577-53a530429631ceb81eb8e74be255beae-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982202-22362eee9d871606cd4fd4ff509156f8-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982223-f17a72ae72d5fc13039767e1209ac787-7.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666620-c94669b032a038b9ff68900e243b3ac5-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020052-de5021996c2a1690e19a35415c8870e1-7.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982265-9dc0d42fe2385232e51e3d5dd2b0ccd4-5.jpg",
+      
+             
+    
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706666641-fd1df8162afa490bc18c8e702521287a-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705982202-22362eee9d871606cd4fd4ff509156f8-1.jpg"
+            ]
+        },
+
+        "tinder": {
+            description: "Make your profile irresistible with the Tinder pack. Curate photos that showcase your charm, wit, and personality, sparking that instant connection.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706663968-b1de86c6947f79b83d818aaf1ad7354d-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705976135-1f6ba9969c0e9f08c1d24021633dddb3-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705977215-ca39bd68ba5bbb9278d52323a53d7f64-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705977257-719908757a0e5da9a503c576345e0d8c-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705977180-4807911b1a7536999e399724a2d55793-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705977159-2fd6a05fc92861b0f70804d30cb04a0d-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706664936-7ab98877ef9538365d7f884cd7794e57-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706664571-50adb83a9fee2936e9aa81cf8689b3a9-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706664635-7d5d6facced8ebe18caf6dfd1aa98918-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1705988472-abe4d38f238004b50509272bff649620-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1705988472-abe4d38f238004b50509272bff649620-6.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706664810-f36d45106031720a4f40fcf74dcf7339-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706197334-8f41ec739f9609421291affbb97b5eda-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705976871-ce333224ccfe8fc27dd1b5a9249fd051-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705976892-500a7fe3e9b0da5480fc1ef1daef1e15-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706664417-2bee42db9ab0ca4e751e14f753c1e6fa-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705976275-8f6149e469b4c125ba99f8a18f8cfe60-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706664361-7f8bf7fa1dec82ca9da4f020358c9cf9-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706665266-31521e989b41eb68e9aa767d05734934-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1705976247-d8bc73e7f48b370a9cd282a0f76bc794-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705977159-2fd6a05fc92861b0f70804d30cb04a0d-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706664908-d7b03a47d2fca187f0e1b1fc36443983-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705976829-2b54aff72573e36cf983c43da527c53c-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706664081-b0d0d9375013c5b587480cec13313b0b-1.jpg",
@@ -284,17 +429,19 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705976170-5e66c75fba3973b30f76f57878433483-1.jpg"
             ],
         },
-                "instagram": {
-                  description: "Elevate your feed with breathtaking visuals. Whether it's lifestyle, fashion, or travel, these images are designed to captivate and inspire your followers.",
-                  urls: [
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680701-af4c7377db002e634416996f097af7aa-1.jpg",
+        "instagram": {
+            description: "Elevate your feed with breathtaking visuals. Whether it's lifestyle, fashion, or travel, these images are designed to captivate and inspire your followers.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680645-178687ef81679c952d08a5ec474353bc-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680806-cda566b431425d5221b74309473610c4-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680673-0982fe9dfda755c81f4dbe8aa5f1b643-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978288-d6438bef64ad9c465f460f1cc7a66f7b-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706197334-8f41ec739f9609421291affbb97b5eda-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706197032-fcadc7c28a783e6ed1438ac5b6b776b3-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706197025-68cefa82be564138e0d0e2e79af569fa-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706196731-ecac36d54c22f21884432ac59e718edd-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680007-a1d08409e0381d6fd169a573d35fb097-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677643-aa61a2b539165f68225b91838c0de2fb-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020234-f6b27fe3b3dfb70bc441b465b60596f7-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680582-75a019c891679588b978b3e06e1e9dea-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680210-db7e7cad880f8aee70240345400a221d-1.jpg",
@@ -325,61 +472,95 @@ export const imageData: ImageData = {
 
         },
 
-            "avatar_ai": {
-                description: "Create a digital avatar that represents your unique style and personality. The Avatar AI pack offers a range of customizable characters and expressions.",
-                urls: [
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705971731-cccc14d29a80cfcb709a58dd83f45ce7-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972081-040c7780b0c3ed2fa738ea654b8cf525-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670799-c4c0026f6bb03bef20ea024a627e5c8f-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705973484-8650d6b42d1c413eef02975a6d70f010-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705969907-48cc9efe1921ce37dff93afaee7cac48-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706668870-f40a69d3e047391e4a80d0f303c1f734-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705969949-3df3f340bcdb75ba823d996191bf2f80-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706667124-5d45f6f6aa7171830ff4306a7296c689-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706669060-5a64db7f2e4d9c0e84bbf7310a7ea32e-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670546-15a50470e9f3b5e2088b87c40745d598-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670750-7aee7be928b797a7c1363772642733b8-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670224-7728fd896b7c987d184d242484c3c468-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671535-8cf2bfcb0538d28648640730497d5ecc-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705973806-1556a057732aecd90c3d4f81f107fb8f-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706672447-0f3774a991c71f349ac8be1a892f463e-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705970475-bde9195e6938ec302d187916431cd25f-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705975749-353fc233f77309e95e8cdb80769ca879-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972292-a7a8d2ab8bafe85e87519c1974598326-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671752-83b24ca91392d57e31837c6a59334bab-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705973365-c9759a8dc1a7439104ff4d1ca7163f2b-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706667994-879e8416520126e724a1014e37650148-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705974171-c1637eb6da9235756cc4548581db20f7-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670091-29142e6576b140d790be66ae46625dca-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705975826-a6c1e782800d04cbd4d7abc055054f5b-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706672685-d8707754aa05015cf9dd8e776cb0be10-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671332-453273565906d7ba358c41212bf0d804-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972390-b23809bcb507a5c24375a944842ce2d1-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671430-f18be5c44aeca458f42e9aa6ef618dc1-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021174-50c4d59a844a47f1a42ad48df189a930-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670266-65fceb4e29bac93e993de1f3691bcdb0-1.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706669207-a0e65e90404ae0b4ee48fefa4c6421e8-1.jpg"
-                ]
-            },
-      
-                "boudoir": {
-                  description: "Celebrate your beauty and confidence with elegant, intimate portraits. The Boudoir pack offers tasteful, sensual imagery that empowers and enthralls.",
-                  urls: [
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681094-dd7ed382b99f8bf21c9b57d911df3b5d-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981760-40d24925a34cc946bfa95dbe202ef433-1.jpg",
+        "avatar_ai": {
+            description: "Create a digital avatar that represents your unique style and personality. The Avatar AI pack offers a range of customizable characters and expressions.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705974956-da27a837bbc92d3676fc66b727af1a37-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972278-c52dde11ddc68c4b64da274cd4279192-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020683-56f74783f58b8882d14fe6038910a834-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972081-040c7780b0c3ed2fa738ea654b8cf525-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670799-c4c0026f6bb03bef20ea024a627e5c8f-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972404-0d4692731af03fb36574665a0a25f0ef-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706670182-dd1302d8f4676dd5d4dc81b64589491f-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705975384-c1577ca27d7ef85473fd7326cafd0d67-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671556-03f4c3624c58a4ef016341b124f038a1-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705969949-3df3f340bcdb75ba823d996191bf2f80-1.jpg",    
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705972783-b9619c3bd39234a1dd3a077793706bc8-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705974031-a9635dac4c5c598dc349a390220e3648-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705973484-8650d6b42d1c413eef02975a6d70f010-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705969907-48cc9efe1921ce37dff93afaee7cac48-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706668737-d7c63f0697bfb6e79fe94ffd472f119c-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705974795-dff840f72a4912e0a7d255f4e3c6abec-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706668870-f40a69d3e047391e4a80d0f303c1f734-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705969921-186629ee626518f66e1efa334ef9ec60-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671956-4644f5ddf3154b58aa858b105a7e309b-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705970763-3b11317bee9063458aeb631707122488-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706668127-37586ba6385878d6252020c8f1e10c32-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705974928-2667946baade3117bc7973f72c087e65-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705974129-3e8b32fe4110575d7d9c4533b0f04275-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671500-10c8e04e2686866653ad8722fad80a3d-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706668688-c68619b3aef49aa4b72707708a8a752d-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705969949-3df3f340bcdb75ba823d996191bf2f80-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706669025-59aac62144b422b88e92e395001acfd2-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706667124-5d45f6f6aa7171830ff4306a7296c689-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666921-795d3ae8d85518c4f070579e927dcd2a-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020718-683bf9f1ef88bd0ca0a7d640b2a442ea-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706669060-5a64db7f2e4d9c0e84bbf7310a7ea32e-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706667826-8ab335e823e048f45d132f1fae16e09d-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705970005-f5b0befe80c79e3f7e852c8c3372c249-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670546-15a50470e9f3b5e2088b87c40745d598-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706668786-1c915b86f44203e0c19e4372c4964a8a-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706668962-495d3f283887de3a4ff4f9a6aeed5624-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705972264-adcc56ef148d9e1ebb8869cb3f12e12c-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705970398-04304b6ac83489deeb03fe6ac7a500bb-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670750-7aee7be928b797a7c1363772642733b8-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670224-7728fd896b7c987d184d242484c3c468-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671535-8cf2bfcb0538d28648640730497d5ecc-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705973806-1556a057732aecd90c3d4f81f107fb8f-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706672447-0f3774a991c71f349ac8be1a892f463e-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705970475-bde9195e6938ec302d187916431cd25f-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705975749-353fc233f77309e95e8cdb80769ca879-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972292-a7a8d2ab8bafe85e87519c1974598326-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671752-83b24ca91392d57e31837c6a59334bab-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705973365-c9759a8dc1a7439104ff4d1ca7163f2b-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706667994-879e8416520126e724a1014e37650148-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705974171-c1637eb6da9235756cc4548581db20f7-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670091-29142e6576b140d790be66ae46625dca-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705975826-a6c1e782800d04cbd4d7abc055054f5b-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706672685-d8707754aa05015cf9dd8e776cb0be10-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671332-453273565906d7ba358c41212bf0d804-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705972390-b23809bcb507a5c24375a944842ce2d1-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706671430-f18be5c44aeca458f42e9aa6ef618dc1-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021174-50c4d59a844a47f1a42ad48df189a930-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706670266-65fceb4e29bac93e993de1f3691bcdb0-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706669207-a0e65e90404ae0b4ee48fefa4c6421e8-1.jpg"
+            ]
+        },
+
+        "boudoir": {
+            description: "Celebrate your beauty and confidence with elegant, intimate portraits. The Boudoir pack offers tasteful, sensual imagery that empowers and enthralls.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681143-0488278b9cec41013d659014b1dacb03-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981942-ab02707cecafda87b6c482849f89d49a-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681311-9ebd2f0f36c89d82a829286cd735d343-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681115-031a2825c69c0dd2cd0d0be7d88aba5b-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982040-14fa692d4462188fe1d63a4864ca4395-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982047-5bbc76e369b119654aa42faaf440d409-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981760-40d24925a34cc946bfa95dbe202ef433-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706681143-0488278b9cec41013d659014b1dacb03-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681122-da145132b2e7e01b8b91283870478a19-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681150-90d35df2cf86036068804440bbb1603f-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981900-da3df2a7c91af5d8dc8464195ace962b-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981753-82fb5a333d02ff9e79617a41a983d68d-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981872-19be4a335763a6aa47e7dcd27370f6f3-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680911-c31dd9f9376f3be0bac2ac5eb9909e7d-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706680960-6bcf029e7adc12178654f18cdf4487ad-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706681185-576335ea7f67301802c54ad3bce10df4-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1705981935-5e4dd5472be4f5411fd493a5a4dc66eb-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982012-ff768b108f97ec7b2997b60898da9397-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981991-42e2ccb56c18e156eac4e372ad5712b9-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981795-b22fa9f56154d1cbadda042966693939-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681332-ad2d8c581c643c3a1684a53082ed583c-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1705981886-98f927f1f86b779959b4412e15f8211f-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706681108-b0e4f89f7ebe8f253428f5c575f018b8-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981935-5e4dd5472be4f5411fd493a5a4dc66eb-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981809-1e241ae903209ab8d5c46270fc12001c-2.jpg",
@@ -399,57 +580,78 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706680967-29f422df54026c42f82aeac255af2ff9-1.jpg"
             ],
         },
-            "Headshots": {
-                description: "A collection of professional headshots for business and personal use. The Headshots pack offers a range of styles and expressions to suit your needs.",
-                urls: [
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986894-09acfd59079e087fb484ff54f2181801-11.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661043-9e2383b8f79c022a4e29b9918b3c0e63-3.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661043-9e2383b8f79c022a4e29b9918b3c0e63-11.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661100-b96c71698ff259370b2d4dae72020684-10.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986816-d120556d4ddd68c2e4259f6194fb3851-3.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-3.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661100-b96c71698ff259370b2d4dae72020684-6.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661085-7e7a8a3b75ba53021a39c5ea18afc220-13.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661135-f69c6acdc255577926deb7198342a6e9-9.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986816-d120556d4ddd68c2e4259f6194fb3851-5.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661128-3b7f71b40c645da0935ed0cd4240d996-5.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661057-fe4f45fbf5d462a9898fb3b30c6efd98-13.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986816-d120556d4ddd68c2e4259f6194fb3851-11.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661050-00d0a04e2df7970285649868f1c09f1e-7.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661071-ee0c4f0878d408bd372a7248f0c8c119-5.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986823-c5058d645073b4ce4430f3c6ffbe2343-10.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-11.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986837-885e15dc3e54670eb7a79e5e8feed227-13.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661128-3b7f71b40c645da0935ed0cd4240d996-9.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986830-85135b5d5d28ec0f2e2d1ca180923537-4.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661057-fe4f45fbf5d462a9898fb3b30c6efd98-4.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-10.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986830-85135b5d5d28ec0f2e2d1ca180923537-5.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022787-4e1a753d3143db05f204a12471e94bc5-3.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022780-ea6685046bb2389e018a1582349253d1-14.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-4.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986823-c5058d645073b4ce4430f3c6ffbe2343-11.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022780-ea6685046bb2389e018a1582349253d1-8.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661149-8485820a0003df5188e7c41e5db1a783-5.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661043-9e2383b8f79c022a4e29b9918b3c0e63-14.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706663744-deb548573da01e0a3ee5fe0c4bf9e753-13.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706027755-094a4af242749d306751da45231222c8-2.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706661071-ee0c4f0878d408bd372a7248f0c8c119-12.jpg",
-                    "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706661078-f9f6faa78c19af36b612a4938da3869e-3.jpg"
-                ]
-            },
-           
-                "nightlife": {
-                  description: "A collection of festive and naughty Christmas images to spice up your holiday season.",
-                  urls: [
+        "Headshots": {
+            description: "A collection of professional headshots for business and personal use. The Headshots pack offers a range of styles and expressions to suit your needs.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986894-09acfd59079e087fb484ff54f2181801-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661043-9e2383b8f79c022a4e29b9918b3c0e63-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661043-9e2383b8f79c022a4e29b9918b3c0e63-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661050-00d0a04e2df7970285649868f1c09f1e-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661100-b96c71698ff259370b2d4dae72020684-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705986837-885e15dc3e54670eb7a79e5e8feed227-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986816-d120556d4ddd68c2e4259f6194fb3851-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706664578-2b0d8df6b68267bf1202bf8bcdb28cda-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661100-b96c71698ff259370b2d4dae72020684-6.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661085-7e7a8a3b75ba53021a39c5ea18afc220-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661135-f69c6acdc255577926deb7198342a6e9-9.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986816-d120556d4ddd68c2e4259f6194fb3851-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661128-3b7f71b40c645da0935ed0cd4240d996-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986844-85a016262e4213be7264286325d560b4-3.jpg", 
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661057-fe4f45fbf5d462a9898fb3b30c6efd98-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986816-d120556d4ddd68c2e4259f6194fb3851-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661050-00d0a04e2df7970285649868f1c09f1e-7.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661071-ee0c4f0878d408bd372a7248f0c8c119-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986823-c5058d645073b4ce4430f3c6ffbe2343-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986837-885e15dc3e54670eb7a79e5e8feed227-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661128-3b7f71b40c645da0935ed0cd4240d996-9.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986830-85135b5d5d28ec0f2e2d1ca180923537-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661057-fe4f45fbf5d462a9898fb3b30c6efd98-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986830-85135b5d5d28ec0f2e2d1ca180923537-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022787-4e1a753d3143db05f204a12471e94bc5-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022780-ea6685046bb2389e018a1582349253d1-14.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705986858-10a4156c9fd033252652249f32678376-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986795-66593c7c9525ed4bfdbc35fa3fb52ebd-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705986823-c5058d645073b4ce4430f3c6ffbe2343-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022780-ea6685046bb2389e018a1582349253d1-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661149-8485820a0003df5188e7c41e5db1a783-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661043-9e2383b8f79c022a4e29b9918b3c0e63-14.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706663744-deb548573da01e0a3ee5fe0c4bf9e753-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706027755-094a4af242749d306751da45231222c8-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706661071-ee0c4f0878d408bd372a7248f0c8c119-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706661078-f9f6faa78c19af36b612a4938da3869e-3.jpg"
+            ]
+        },
+
+        "nightlife": {
+            description: "A collection of vibrant, high-energy images that capture the excitement and allure of the nightlife scene. The Nightlife pack is perfect for promoting events and venues.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660391-c76ddfdd131af376a2648a36881a8a68-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660475-12660e43731caea13b3eb4e3db9e827f-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028169-3d8b5a22310046c0d3d572b2aa3e6948-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028829-fe548e0df79f651c7479587811fc210c-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028310-3bc0917d8f34d73bcab6927018c921e5-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706664606-4a65f4b0d7c5eacab62a34655a8534bb-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706660243-dca0932dc34fb59f93ad26eaad7bd477-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660370-53526afb5aaf8d76ef713c4c46dac117-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706028822-42a40237dd04940ae69610de298c24f0-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028422-29d3cd9510737e2d49f9d9e4acf01a0d-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028513-77f5658d35025c632aac067eca3634bf-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028527-c1da7edb7d4516b7da0c8d84090de8df-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706028134-5476deb7ac42104d6510c3cbca8d3e57-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028548-9f7bb8cb15e442c3b396c58d4def14dc-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706660187-ac5acf78b9ff2b137ea3906553c931bc-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660405-7989e999dc46e335237938de2d698c6a-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706660377-301313fca5a5afb03dd546d1025f67c8-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706660468-308a3b486cd6a7220723c80bcaa93387-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660124-8fd6a40b226ec4d659084d70201fcbf4-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706028148-a702e4cc5d87372245145c25e55379f5-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028275-ba193ae389585c90127c350ce5bd4a50-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028198-e14999e9763b52dc7bd82ac2d902140f-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660503-61f7b61089f1171ee1a65b29afbc5d08-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706660293-c5aca63eac0263d1cca2cb1125ad849c-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660159-4af663871406c69d1e7d22ea3a047a63-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660314-44b59eda87f783e7130ca131fd5bd546-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660222-079cf720b2f646c418ea6634fcc7e2be-3.jpg",
@@ -471,21 +673,15 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660166-f826f30df4d99956107978d3190a598e-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660307-c4b532a9879dbe3e4d241f8a7582dd99-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660117-24d0b0a92e3cd9d1ea39f1f9db4e197c-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706028618-84bbca1bc9f4b6c97fb809621952daea-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705978617-f50ba77728901a9399305b71df98ea53-11.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706027713-865b5aa1bece3d8a6eda43d8ac269ef9-16.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706658367-af2baf323c66865408c86fa3a89ec5be-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705988886-969470a3cb8b45547a197b7b41412191-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705987027-d1fbdf28c63de499ba6bdf3432b9692e-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705987216-1543b95cc7ac383332446f4881920b1d-4.jpg",
+               
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706028443-a9425f5fa489c360094982d0b8f2fae1-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706028941-ce175b9ba38b0c2fe085bcd6c7dfbdbb-2.jpg"
             ],
         },
-       
-            "glamour": {
-              description: "Capture the excitement and glamour of the night. From club scenes to city lights, these images are all about energy, style, and unforgettable moments.",
-              urls: [
+
+        "glamour": {
+            description: "Capture the excitement and glamour of the night. From club scenes to city lights, these images are all about energy, style, and unforgettable moments.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985042-755cb5963e5ba19d1664a7bf23cac7df-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705984986-e51f2215de9091140109ced5858298d5-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705985035-9e714aa2cbbdab090aef7ab06c0e1c74-2.jpg",
@@ -526,53 +722,101 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706681676-a5fcc59146db6689160c87fa18ba08b4-2.jpg"
             ],
         },
-     
-            "ai_selfies": {
-              description: "Reinvent the selfie with AI. Experiment with various styles, backdrops, and aesthetics to create personalized, eye-catching images.",
-              urls: [
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016910-6d81fa4b85c6aae9cc6134278e5b3188-11.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016854-00b7ece187f68d43d8779ea23ca00056-16.jpg",
+
+        "korean_profile_pics": {
+            description: "Korean profile pictures are a popular trend in Korea. They are often taken in a studio with a professional photographer and are used for social media profiles.",
+            urls: [
+
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978498-ef59f2ef8c282c096d5b2849efa00a0c-8.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022654-a2892ed6f59526ce1178b063a4b74098-13.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978561-72485a5354a3817a1ae4b89badec39a4-15.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978505-5810020660b8d6129755fd1c9b6b4a4b-10.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674544-d55ace6570850c8c2fe9ec8f9fb68da1-1.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674551-eaed8240d4e44307820ea9ecf14e7b28-12.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674516-b7e7c61495f6f089c338d60800b436ab-13.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978519-217ca652cbdab496d061ebc4b2bf0794-1.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674509-aa162430fcb5cbe7ca635f48f263fa50-14.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978547-f3839bde6f1a8ab3696e770456fa87b8-5.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674530-2fde4335a5be5d8dde4929cf2df5cff8-14.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674530-2fde4335a5be5d8dde4929cf2df5cff8-2.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674516-b7e7c61495f6f089c338d60800b436ab-2.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978498-ef59f2ef8c282c096d5b2849efa00a0c-15.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978526-50bcbc90be7df2dafa11db5ee1861af8-5.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674551-eaed8240d4e44307820ea9ecf14e7b28-11.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978512-70f374d4c65933770af8ab8b844022e0-1.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674509-aa162430fcb5cbe7ca635f48f263fa50-15.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978484-5a180be8a6cdcaca68f67bb0e4bde4d2-13.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674453-360d04ba0a52423530f7fffb08b929d9-4.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674509-aa162430fcb5cbe7ca635f48f263fa50-4.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022647-5f56f345dc4dd94465481611e375709c-7.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674467-709afa535d3dc304f946e095c78bb5a7-8.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022647-5f56f345dc4dd94465481611e375709c-6.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674467-709afa535d3dc304f946e095c78bb5a7-4.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978547-f3839bde6f1a8ab3696e770456fa87b8-10.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674544-d55ace6570850c8c2fe9ec8f9fb68da1-3.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674509-aa162430fcb5cbe7ca635f48f263fa50-7.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978554-6880099f02438eb1270c07b80f399884-16.jpg",
+            "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978547-f3839bde6f1a8ab3696e770456fa87b8-3.jpg",
+            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=85/https://r2-us-west.photoai.com/1705978491-cd0ccf0721b7c3f77391ef9a5c34f86c-9.jpg",
+            "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=50/https://r2-us-west.photoai.com/1706674551-eaed8240d4e44307820ea9ecf14e7b28-4.jpg"
+            ]
+        },
+
+        "ai_selfies": {
+            description: "Reinvent the selfie with AI. Experiment with various styles, backdrops, and aesthetics to create personalized, eye-catching images.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674635-94639111ac42a13fe3998747a575d055-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674677-74553bc2094d1577592f5ad2dc72d387-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016896-86b6d763fe06ba9771bf6522c1cc510c-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674705-430aca039596c8bdfbe90f0fd22ee568-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674726-fc7066b5ce1c408f39e7842506986e3f-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016931-8a2e0aaced9e6cabe723be5cc22ca0c6-12.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016917-663ddfb89d881d8d9951aee09f81ff68-11.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016924-d879ded9cb1a1083bd9cb055267d47f0-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674691-29ec914c292f1c3ab826fd51c1d94474-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016910-6d81fa4b85c6aae9cc6134278e5b3188-13.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674698-68a925091771cdbbc3119869eaba1166-8.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016889-3a788898463a98e83fee0b71d6c17808-10.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674677-74553bc2094d1577592f5ad2dc72d387-10.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016854-00b7ece187f68d43d8779ea23ca00056-16.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016931-8a2e0aaced9e6cabe723be5cc22ca0c6-12.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016854-00b7ece187f68d43d8779ea23ca00056-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674656-3cd6612cb944ce18b67879e96f70478e-8.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674628-eb5afbd591d7e40742c005eb169528bf-16.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674712-64294bf7909debc5a1a777bbaf9dc57a-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016910-6d81fa4b85c6aae9cc6134278e5b3188-11.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016938-d278c5c381724924f3d6d91f31dbadcc-15.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016896-86b6d763fe06ba9771bf6522c1cc510c-13.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674705-430aca039596c8bdfbe90f0fd22ee568-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016917-663ddfb89d881d8d9951aee09f81ff68-11.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016924-d879ded9cb1a1083bd9cb055267d47f0-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674635-94639111ac42a13fe3998747a575d055-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674691-29ec914c292f1c3ab826fd51c1d94474-13.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016910-6d81fa4b85c6aae9cc6134278e5b3188-13.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016931-8a2e0aaced9e6cabe723be5cc22ca0c6-6.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016931-8a2e0aaced9e6cabe723be5cc22ca0c6-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674621-444c6a911e2e068d530e0ff5f8c31604-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016917-663ddfb89d881d8d9951aee09f81ff68-14.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020038-1d6f6b9b931917679b136ab8ac1af813-5.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016903-c56e64fdf95d4a9c3efb322d58446c2d-8.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674677-74553bc2094d1577592f5ad2dc72d387-1.jpg",
 
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706016882-c9d78245637df975fe691603ff9b5945-15.jpg",
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706674691-29ec914c292f1c3ab826fd51c1d94474-8.jpg"
             ],
         },
-    
-            "street_style": {
-              description: "Showcase the raw, dynamic energy of urban fashion. Street Style is all about attitude, individuality, and the vibrant tapestry of city life.",
-              urls: [
+
+        "street_style": {
+            description: "Showcase the raw, dynamic energy of urban fashion. Street Style is all about attitude, individuality, and the vibrant tapestry of city life.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991965-181c9d8453717ae4147002e4d9cfdaff-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705993023-3534fcbec15f09c782cd51861c952413-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677251-c4c1b3b15273186726f47699ce854ce4-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676732-840584d4ae10317c8ad2c02371b7b2f9-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677153-c0f412be93f2243fbfef246cd405af76-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676332-7e8f835df442610148a688c31ad0c86f-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677314-ebdfb17179365ca1696aba97ac8f6a5c-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676676-7505609b6008212e7459791ad87df519-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676494-0bc91d320b29c6941c6d5e667512ded3-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1705991824-c6420de236af7d77bf7f89bd96a4df43-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991481-9fc6e11e4a3da76987ee424262a35e44-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992259-6c63f9503c82dea57346be57ccd167a2-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676844-ce764ae23e051e23a2d7927f39644e1e-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676080-98a1b8f1e202f2aef080cef25de0ea63-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676479-5b0b52b41c6b132fb39103d373d5e985-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992806-1cf8bb97fc9d58bddbfbfa06d0134afc-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705970594-cce4cf25fc36f0e589253532c0868bb0-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022324-99c91c1717e2eb17a9855bcf2e7b88a5-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705993016-d0a735a026147bc4d3b99d7630b1d1dd-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022500-56b058b055413d4ebde6f351031c1749-1.jpg",
@@ -595,21 +839,16 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991663-872af64ce39d5cf5f1b690e970044c09-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991803-9924a07f51d1594419a12bdc8a2d8084-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676816-62257b3244548612be1dda0b73e919b9-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705978617-f50ba77728901a9399305b71df98ea53-11.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706027713-865b5aa1bece3d8a6eda43d8ac269ef9-16.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706658367-af2baf323c66865408c86fa3a89ec5be-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705988886-969470a3cb8b45547a197b7b41412191-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705987027-d1fbdf28c63de499ba6bdf3432b9692e-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1705987216-1543b95cc7ac383332446f4881920b1d-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=300,height=450,quality=100/https://r2-us-west.photoai.com/1706675862-3dbf30931135dc9d86be27979467adb1-8.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706677258-20a4f4d0db61a724eaf709e254466af0-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706677132-9c4d7be0c8661621e7f29247f71346dc-1.jpg"
+               "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992869-7667c09f06cb1fcf4f769ea92215af30-1.jpg",
+
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991572-4a46ef7cb37fbeb5fd72c52478ff01b5-1.jpg",
+             
             ],
         },
-        
-            "keynote_speaker": {
-              description: "Command attention and convey authority with images suited for the professional speaker. Inspire your audience before you even take the stage.",
-              urls: [
+
+        "keynote_speaker": {
+            description: "Command attention and convey authority with images suited for the professional speaker. Inspire your audience before you even take the stage.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705975924-63f07c40703b7da36b89dc4717f47953-8.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705975994-d3c330cc2cb2014c847f438e88f66f12-15.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666051-e6e0d672067d6b3da814bdef813d6d29-5.jpg",
@@ -645,10 +884,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706666037-1064a23faeea021093ef0a9574ed7dda-5.jpg"
             ],
         },
-        
-            "nature": {
-              description: "Immerse yourself in the beauty of the natural world. From serene landscapes to the wild untamed, these images celebrate the planet's breathtaking diversity.",
-              urls: [
+
+        "nature": {
+            description: "Immerse yourself in the beauty of the natural world. From serene landscapes to the wild untamed, these images celebrate the planet's breathtaking diversity.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027243-44c794f8b6ed3075308c51ea66c84809-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677896-da5eaf9d4fc1b038f49d54c9fa4467ed-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989230-6e227dbe6128191641f752c6d55b2add-3.jpg",
@@ -684,18 +923,25 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705989230-6e227dbe6128191641f752c6d55b2add-1.jpg"
             ],
         },
-       
-            "travel": {
-              description: "Embark on a visual journey to the world's most stunning destinations. Capture the essence of exploration and adventure with every image.",
-              urls: [
+
+        "travel": {
+            description: "Embark on a visual journey to the world's most stunning destinations. Capture the essence of exploration and adventure with every image.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706678773-f9657b97dde3b26064ca702f9d577464-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021756-879b8ac795a50b4243b47ea3603c3960-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706679719-3614c78d0f6372ce70a9a1a80ffba902-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982552-6763843d30d690f2493059e2655d0166-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992498-ca0d633e6047f08bc75e7b7cdb4c21ba-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982770-4992a2edea92da64265240517689849f-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705983843-9dcd62e0b4893c9fa4cf0f3f07ad9a5b-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982447-ddd14f02abc55f0fbbed923f373e5565-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991705-aa1fe155336c7fe2905d3d044c3f7d19-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705983786-7d874dcdffd11fbe0189c253ec98b7e0-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992729-91bb6df9e25c6272166bc165fb55232f-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677643-aa61a2b539165f68225b91838c0de2fb-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992701-0f1760adaca0f663698ccbed8fb73a13-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021623-e967c0c391ac3252097530fd356ff38a-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991909-69fcebdf293d1b3ef33e715d2c725066-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021594-4b9dbd01ab600a5c1d468a8a3778a122-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705982630-721a7d0ea14cb9329becbadf96cff1e4-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706679789-33c0c3fd1fe39445b64a276ff584493b-1.jpg",
@@ -724,11 +970,11 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705982868-39f614bd6f59387482766312a094beb8-1.jpg"
             ],
         },
-            // "outdoor-adventure": [],
-           
-                "polaroid": {
-                  description: "Nostalgia meets modernity with the Polaroid pack. These images offer a timeless, candid charm that's perfect for capturing genuine moments.",
-                  urls: [
+        // "outdoor-adventure": [],
+
+        "polaroid": {
+            description: "Nostalgia meets modernity with the Polaroid pack. These images offer a timeless, candid charm that's perfect for capturing genuine moments.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706015623-4374084b129f13ee30fb9943ef2ebbd0-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658059-ae43e36fc3eb7d2ff6183cf17ba3b9ec-8.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706015553-c7aaddc09b17a15c8551ba0cf36d83a0-7.jpg",
@@ -765,10 +1011,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706015574-e6af3800aa817c5bb0df0f21b99e8c05-6.jpg"
             ],
         },
-      
-            "fitness": {
-              description: "Showcase your passion for fitness and well-being. Dynamic, motivational visuals that inspire and promote a healthy, active lifestyle.",
-              urls: [
+
+        "fitness": {
+            description: "Showcase your passion for fitness and well-being. Dynamic, motivational visuals that inspire and promote a healthy, active lifestyle.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980140-f3886c92b1cc3ade4306e02f741f78a2-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980280-2a3378149a2b9b1adc7cee69ac44b006-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705979943-af506c3e1beaa12b0546c0d9e1af29e2-3.jpg",
@@ -799,16 +1045,16 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980329-e1781467170d4aa35b36e3c2316f455a-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673386-79cd942dd67f895651f164ba41a9be1e-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673653-102fdc5ba4e107ce86c3d1a9f7aabebe-3.jpg",
-               
+
 
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706027776-0e920f774228056d25f441c99c80a24e-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706673632-0456f458bdfb6f327081ad6ca8d2d552-1.jpg"
             ],
         },
-        
-            "music_festival": {
-              description: "Feel the rhythm and energy of the festival scene. From electrifying performances to crowd euphoria, capture the essence of music's biggest moments.",
-              urls: [
+
+        "music_festival": {
+            description: "Feel the rhythm and energy of the festival scene. From electrifying performances to crowd euphoria, capture the essence of music's biggest moments.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021335-822c56ea7d4c442b3251986139dda037-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675399-488e297578254613b8e9b58df4eecf3f-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705979698-a9f4be6c406862eb98abf6dcaaac31c5-1.jpg",
@@ -839,16 +1085,16 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675238-c0d4d6293a2d23234d871da8019877bc-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675196-51cb0d05c226165429cd5f8f1be37a91-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674866-a9da5410b31704ebb56b0fac085e5f97-2.jpg",
-               
+
 
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1024,quality=100/https://r2-us-west.photoai.com/1706675420-0c8517006bea935cd9ca87f11b6e7aa8-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706675203-9da5aaa32c823972110709f58089a0b8-2.jpg"
             ],
         },
-        
-            "fitness_influencer": {
-              description: "Elevate your fitness journey with influencer-worthy shots. From workouts to wellness, these images inspire and motivate a fitness-focused audience.",
-              urls: [
+
+        "fitness_influencer": {
+            description: "Elevate your fitness journey with influencer-worthy shots. From workouts to wellness, these images inspire and motivate a fitness-focused audience.",
+            urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660952-24f3535db4f4f644f07e1b213d879fa1-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021826-cdcb3fba01e5518dc068424c335c8696-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705984193-9d6e4a5ffa961a6d2ae769a7ae026cd0-1.jpg",
@@ -884,10 +1130,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706021847-fd7ff872d3acd5f84be211f0f3cfd3e5-4.jpg"
             ],
         },
-       
-            "virtual_try_on_clothes": {
-              description: "Fashion meets technology. Explore different styles, outfits, and looks with virtual try-on images that make online shopping a breeze.",
-              urls: [
+
+        "virtual_try_on_clothes": {
+            description: "Fashion meets technology. Explore different styles, outfits, and looks with virtual try-on images that make online shopping a breeze.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706666248-799ba241f6068e045c503a0b8e60d49e-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705981388-1822c86a6bb03ca9ba3037fb2d11d7cc-2.jpg",
@@ -924,20 +1170,25 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705981521-fe5c3b8f3524cc11be736e0c6ac1d77c-3.jpg"
             ],
         },
-        
-            "virtual_suits_try_on": {
-              description: "Perfect for the modern gentleman. Virtual suits try-on offers a sophisticated array of business and formal wear, tailored to your digital persona.",
-              urls: [
 
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662320-1427efe95341c9349a5647d4c7b7ac2f-4.jpg",
+        "virtual_suits_try_on": {
+            description: "Perfect for the modern gentleman. Virtual suits try-on offers a sophisticated array of business and formal wear, tailored to your digital persona.",
+            urls: [
+
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662650-a257472bc65d14aaaa0a1fb5b74317f8-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020332-1a3f32dd2b9788100cfc82c158b3b8a3-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988009-74beea88fa468abecad4df79efcce283-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662383-31abef2c819fa960bc50bbd891559e1f-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662320-1427efe95341c9349a5647d4c7b7ac2f-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662439-aba4fb11b409a81f09da635883e3e309-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706662678-45208573e8618732fd75ee072971cab8-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662608-8d965b2fbc285bee9e94b00032870c6c-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=768,quality=100/https://r2-us-west.photoai.com/1706662622-260e673deb151e40897642a166a959c9-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988037-d29ba876b3db3e89a2cb4df815b1c736-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662488-6278c42158ad84ee308d4e3d34afd13e-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987960-9d2062845a79815f835e7de3e6daae51-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988100-0be3339d01bcbdf7aa0084653950d3fe-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988339-3095199821dc7f43c6a175483cb645ec-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662320-1427efe95341c9349a5647d4c7b7ac2f-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662650-a257472bc65d14aaaa0a1fb5b74317f8-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988332-76837e5b2204285099d26e5d7b49f823-1.jpg",
@@ -965,10 +1216,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705988219-95ba287650a1eeff4f9a0e40ccc26cc9-3.jpg"
             ],
         },
-        
-            "swimsuit": {
-              description: "Dive into summer with the Swimsuit pack. Whether it's poolside chic or beach-ready looks, these images are all about sun, fun, and style.",
-              urls: [
+
+        "swimsuit": {
+            description: "Dive into summer with the Swimsuit pack. Whether it's poolside chic or beach-ready looks, these images are all about sun, fun, and style.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987756-6a0351733dd930e127c74f8cb0ee6197-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987490-a69da2dbde0451b68344148aa6a9959d-2.jpg",
@@ -977,10 +1228,12 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673933-51823a8586a8d630afb1a51269f746e3-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020262-09d9ac3cf87ed854f55b89d2cc92ce8e-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987770-8f6a647168a70b927c833dae9375b255-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020255-44aa615cb5cc20e5099a428cf4463eee-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674060-67be68f0adb5905ba759be6dad6ba58a-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674312-d65135811580b99f3281873a71d06cb5-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673940-bd74cb97e2723eb706c424472a8b0640-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674004-6f3b76f8852a7c91412876c6338d80d8-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020283-fe37bdef0f3494bd79751509ce323b02-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674137-a068791426520292921d07e99aa28c01-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706020297-ec2d58ba4f9da4f707874dd7854c486f-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674298-ef0e1a9309061eaf5403335bfc027e55-3.jpg",
@@ -1007,16 +1260,21 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705987602-d8d7cc6ea21290366a24a271ff3c0814-2.jpg"
             ],
         },
-      
-            "latex": {
-              description: "Enter a world of sleek, glossy fashion. The Latex pack is for those who dare to make a bold statement with their style.",
-              urls: [
 
+        "latex": {
+            description: "Enter a world of sleek, glossy fashion. The Latex pack is for those who dare to make a bold statement with their style.",
+            urls: [
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992182-fc157b92a90ec5609e47bce2eee79eda-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673814-ff7f480207d66fcfb1d386137154adc3-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673870-9265e769bc77eb0d36ec7c5d80a73dd5-5.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673877-94f432772ee661ca4102091befb79210-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706673835-f9ca80db8e5bef34df428209a16a7559-7.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706673835-f9ca80db8e5bef34df428209a16a7559-5.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1706673779-ce3e842d4a5391b6b1c949533255a784-8.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=768,height=1152,quality=100/https://r2-us-west.photoai.com/1705988472-abe4d38f238004b50509272bff649620-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673884-9d2cf348b45bc6d656de0d128f2f3e5e-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988465-8165fb7d30b1f7977038653cb44f6690-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677629-cd3271e5154f8a321c5b81e3cbb7e904-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673793-ce36f025fa8c7ed04adbd7b5d19ac955-5.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705988472-abe4d38f238004b50509272bff649620-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706673807-94e96a3abb06a23641c0bb1ade324bf2-4.jpg",
@@ -1048,9 +1306,9 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705988423-8d639f497279326b9f2baf600e4e146b-7.jpg"
             ],
         },
-            "hot_latina": {
-              description: "Transform yourself into a fiery, passionate Latina supermodel with the Hot Latina pack. These images are all about embracing your curves and your confidence.",
-              urls: [
+        "hot_latina": {
+            description: "Transform yourself into a fiery, passionate Latina supermodel with the Hot Latina pack. These images are all about embracing your curves and your confidence.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665939-2c14ddeaf89754762a9f136f4727de9c-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706665974-ceab0bc0d07ca6149a67365995b22ef6-3.jpg",
@@ -1089,10 +1347,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705985301-413f18224b006fd8bf3148cce2321463-1.jpg"
             ],
         },
-      
-            "cyberpunk_boudoir": {
-              description: "Try on futuristic fashion with the Cyberpunk Boudoir pack. These images are all about neon lights, high-tech style, and a touch of retro-futurism.",
-              urls: [
+
+        "cyberpunk_boudoir": {
+            description: "Try on futuristic fashion with the Cyberpunk Boudoir pack. These images are all about neon lights, high-tech style, and a touch of retro-futurism.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706675722-7b935d0f7e30f8676a22aa4f2772e6e7-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705984663-69b98857e95e58d2639f081c0e53cc46-3.jpg",
@@ -1131,10 +1389,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706675722-7b935d0f7e30f8676a22aa4f2772e6e7-4.jpg"
             ],
         },
-      
-            "spiritual": {
-              description: "Find peace and tranquility with the Spiritual pack. These images are serene, calming, and full of natural beauty.",
-              urls: [
+
+        "spiritual": {
+            description: "Find peace and tranquility with the Spiritual pack. These images are serene, calming, and full of natural beauty.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022528-055e8cf4a99bcd27818ce11b8f2a77a9-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705990766-1f709bf2d77e43ea414b7f2c451f7d34-2.jpg",
@@ -1173,10 +1431,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706663393-63a1e04f1f145834ff257424c688a52a-2.jpg"
             ],
         },
-     
-            "pink_fever": {
-              description: "Immerse yourself in a world bathed in shades of pink. From soft pastels to vibrant neons, Pink Fever is playful, romantic, and endlessly charming.",
-              urls: [
+
+        "pink_fever": {
+            description: "Immerse yourself in a world bathed in shades of pink. From soft pastels to vibrant neons, Pink Fever is playful, romantic, and endlessly charming.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706037347-be56a96d1837565974446375f66c3cf1-10.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706037361-04894020785c902b901bff06f86901de-7.jpg",
@@ -1213,10 +1471,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706674600-ac3f39250eb8af7301cfab198096da4a-10.jpg"
             ],
         },
-     
-            "wedding": {
-              description: "Capture the magic and romance of your special day. From fairytale settings to candid moments, these images celebrate love in all its forms.",
-              urls: [
+
+        "wedding": {
+            description: "Capture the magic and romance of your special day. From fairytale settings to candid moments, these images celebrate love in all its forms.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989398-05b3bf427ce8ca508420802d32d03871-14.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021784-21559cd6e33cfcfb140f41502bd4bf72-4.jpg",
@@ -1254,10 +1512,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705989391-dc7fd2d851e2a49262f4a98e8fd0f195-12.jpg"
             ],
         },
-  
-            "birthday": {
-              description: "Make every birthday unforgettable with vibrant, joyous imagery. Celebrate life's milestones with photos that are as unique and special as you are.",
-              urls: [
+
+        "birthday": {
+            description: "Make every birthday unforgettable with vibrant, joyous imagery. Celebrate life's milestones with photos that are as unique and special as you are.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706659963-c0c762906626778d0850cbca38993d36-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980427-6514d01b54488df513558a3c55378079-1.jpg",
@@ -1293,20 +1551,23 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705981094-da450fe45fa0d8e13ceded8056330524-1.jpg"
             ],
         },
-       
-            "traditional_clothes": {
-              description: "Honor heritage and tradition with elegance. These images showcase the beauty and diversity of traditional attire from around the world.",
-              urls: [
 
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661247-5ad9da308f69da3b38b8cd038a0fe5ea-3.jpg",
+        "traditional_clothes": {
+            description: "Honor heritage and tradition with elegance. These images showcase the beauty and diversity of traditional attire from around the world.",
+            urls: [
+
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661275-7eeaf11dbcad391a7d58f6a0b7db4f4c-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661464-84800cb5d3e55a62191829dcee4beaae-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661373-4088ebc0612f31465aeb90ca31ce787c-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661275-7eeaf11dbcad391a7d58f6a0b7db4f4c-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661387-642526a42e84b1aa7cda035917359688-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989510-2171f6599b94c31e42fe87616647238a-4.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991600-60d36e32742243f106168a7c0ce2b3cc-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661247-5ad9da308f69da3b38b8cd038a0fe5ea-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705992175-959c7036bf89fd9a9a4843ab0e4b05e6-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989798-572802905fe7cef460a511e22507c8ff-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706661506-b31642499fd251b8cbadbb31e2cf9186-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989489-d1295b7bf83eff546b0b3d2344485f74-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706676164-4ce829577f3e81126976916fedef23e4-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989679-6c974cac261fd67b07da59fd1f9b9217-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989763-034862a1c11f0960ae6330cdbc37a032-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989714-22572f0b6c459938eff6de965bb70f2e-1.jpg",
@@ -1332,10 +1593,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705989517-dc3da048c68ad0ad19216522e428be45-1.jpg"
             ],
         },
-        
-            "graduation": {
-              description: "Commemorate this major milestone with pride. The Graduation pack captures the sense of achievement, ambition, and the bright future ahead.",
-              urls: [
+
+        "graduation": {
+            description: "Commemorate this major milestone with pride. The Graduation pack captures the sense of achievement, ambition, and the bright future ahead.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978849-746b60b8df6d11ad95e467d51761464b-12.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021952-199730a5daa41d0aded45d6a6a08e1b0-6.jpg",
@@ -1370,10 +1631,10 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706675932-500a1b823910dfb8fcb3c49e128ec2ee-5.jpg"
             ],
         },
-       
-            "cosplay": {
-              description: "Bring your favorite characters to life. The Cosplay pack is a celebration of creativity, fandom, and the art of transformation.",
-              urls: [
+
+        "cosplay": {
+            description: "Bring your favorite characters to life. The Cosplay pack is a celebration of creativity, fandom, and the art of transformation.",
+            urls: [
 
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987321-74e48bdb6cf4d6b357222a4ecb6ac794-9.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987279-533ebdd4b67b407279db6f742aaff6ca-2.jpg",
@@ -1382,6 +1643,7 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987329-aa6fce9570c59929069fd9f4121c04c9-10.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987272-ac4b62d6ee4a7adedead4ebfe951c249-8.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706674361-505a62a68d60ccaebbd5411843087b66-13.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991509-d7017d5005f889a3ff9b6352b32b0d4d-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987357-8084c93673e864b2e0072d4ff65b08ba-6.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987336-966b41421cd5439eeeb3801fd818057d-9.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705987307-22ff6a3859d1a2d3669feac74a88e27d-15.jpg",
@@ -1410,5 +1672,5 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705987329-aa6fce9570c59929069fd9f4121c04c9-11.jpg"
             ]
         },
-        }
-    };
+    }
+};

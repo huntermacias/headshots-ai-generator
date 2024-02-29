@@ -20,7 +20,7 @@ export default function PricingSection() {
             key={index}
             className={`flex flex-col ${option.bgColor} rounded-lg p-6 w-full md:w-1/3 lg:w-1/4 transform hover:scale-105 transition duration-300 ease-in-out shadow-2xl`}
           >
-            {option.title === "Basic" && (
+            {option.title === "Professional" && (
               <div className="text-white text-sm font-semibold py-1 px-3 bg-red-600 rounded-full w-fit mx-auto -mt-5 z-10 relative">
                 Best Value!
               </div>
@@ -64,64 +64,65 @@ export default function PricingSection() {
 const pricingOptions = [
   {
     title: "Starter",
-    price: "$16.25",
-    description: "Perfect for individuals aiming to boost their online image.",
+    price: "$16.25/month",
+    description: "A launchpad for individuals ready to elevate their digital presence with professional flair.",
     features: [
-      "16 Professional Headshots",
-      "1 Model Included",
-      "24/7 Support"
+      "16 Tailored Headshots",
+      "Single Model Portfolio",
+      "Round-the-clock Support"
     ],
-    buttonText: "Choose Starter",
+    buttonText: "Select Starter",
     bgColor: "bg-[#0D0C1D] border-[#5D5D81] hover:bg-[#1D1C31]/80 hover:border-pink-700 hover:shadow-lg hover:shadow-[#FF7597]/50",
-    icon: "🌟", // Suggestion: Replace with an SVG for a more professional appearance
+    icon: "star.svg", // Professional SVG icons recommended
   },
   {
-    title: "Basic",
-    price: "$37.50",
-    description: "Ideal for professionals seeking regular profile refreshes.",
+    title: "Professional",
+    price: "$37.50/month",
+    description: "Crafted for the ambitious professional, offering a dynamic range for every personal branding need.",
     features: [
-      "48 Professional Headshots",
-      "3 Models Included",
-      "24/7 Support",
-      "Revision Credits"
+      "48 Curated Headshots",
+      "Three Model Variants",
+      "24/7 Expert Support",
+      "Flexible Revision Credits"
     ],
-    buttonText: "Choose Basic",
+    buttonText: "Opt for Professional",
     bgColor: "bg-[#0D0C1D] border-[#5D5D81] hover:bg-[#1D1C31] hover:border-blue-700 hover:shadow-lg hover:shadow-[#4D9FEC]/50",
-    icon: "💼", // Suggestion: Replace with an SVG for a more professional appearance
+    icon: "briefcase.svg", // Professional SVG icons recommended
   },
   {
     title: "Premium",
-    price: "$50",
-    description: "Our best offer, designed for unlimited creative exploration.",
+    price: "$50/month",
+    description: "The pinnacle of personal branding, designed for those who seek the ultimate creative canvas.",
     features: [
-      "80 Professional Headshots",
-      "5 Models Included",
-      "24/7 Support",
-      "Revision Credits",
-      "Priority Processing",
-      "Post-Edit Revisions"
+      "80 Premium Headshots",
+      "Five Model Ensemble",
+      "Priority 24/7 Support",
+      "Generous Revision Credits",
+      "Expedited Processing",
+      "Comprehensive Post-Edit Flexibility"
     ],
-    buttonText: "Choose Premium",
+    buttonText: "Embrace Premium",
     bgColor: "bg-[#0D0C1D] border-[#5D5D81] hover:bg-[#1D1C31] hover:border-green-700 hover:shadow-lg hover:shadow-[#34D399]/50",
-    icon: "👑", // Suggestion: Replace with an SVG for a more professional appearance
+    icon: "crown.svg", // Professional SVG icons recommended
   },
   {
     title: "Elite Enterprise",
-    price: "$124.99",
-    description: "Our best offer, designed for unlimited creative exploration.",
+    price: "$124.99/month",
+    description: "An unrivaled offering that combines extensive variety with elite exclusivity, tailored for visionary enterprises.",
     features: [
-      "200+ Professional Headshots",
-      "50 Models Included",
-      "24/7 Support",
-      "Revision Credits",
-      "Priority Processing",
-      "Post-Edit Revisions"
+      "200+ Distinguished Headshots",
+      "Comprehensive 50 Model Portfolio",
+      "Dedicated 24/7 Support Line",
+      "Unlimited Revision Credits",
+      "Priority Project Processing",
+      "In-depth Post-Edit Revisions"
     ],
     buttonText: "Go Elite",
-    bgColor: "bg-[#0D0C1D] border-[#5D5D81] hover:bg-[#1D1C31] hover:border-green-700 hover:shadow-lg hover:shadow-[#34D399]/50",
-    icon: "👑", // Suggestion: Replace with an SVG for a more professional appearance
+    bgColor: "bg-[#0D0C1D] border-[#5D5D81] hover:bg-[#1D1C31] hover:border-red-700 hover:shadow-lg hover:shadow-[#F87171]/50",
+    icon: "elite.svg", // Professional SVG icons recommended
   },
 ];
+
 
 
 
