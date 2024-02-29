@@ -50,12 +50,12 @@ const CategoryPage = () => {
         alt="Elegant Background"
         className="w-full h-full object-cover filter blur-3xl scale-110 transition-transform duration-1000 ease-in-out"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
     </div>
   
     <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       {/* Content Card with Apple-inspired Design */}
-      <div className="bg-black/60 p-8 rounded-2xl shadow-xl backdrop-filter backdrop-blur-xl backdrop-saturate-150 text-white space-y-6">
+      <div className="bg-black/50 p-8 rounded-2xl shadow-xl backdrop-filter backdrop-blur-xl backdrop-saturate-150 text-white space-y-6">
         <h1 className="text-4xl font-semibold mb-4 leading-tight tracking-tight">
           {categoryDetails.photoPack.toUpperCase().replace(/_/g, ' ')} SET
         </h1>
@@ -98,11 +98,11 @@ const CategoryPage = () => {
         <img
           src={images[currentImageIndex]}
           alt={`Image ${currentImageIndex}`}
-          className="w-full max-h-[75vh] object-cover rounded-2xl shadow-2xl transition-all duration-700 ease-in-out hover:scale-105"
+          className="w-full max-h-[95vh] object-cover rounded-2xl shadow-2xl transition-all duration-700 ease-in-out hover:scale-105"
         />
-        <a href="/get-credits" className="absolute bottom-4 left-4 inline-block bg-gradient-to-br from-blue-600 to-purple-600 py-2 px-4 rounded-lg text-lg font-medium shadow-md transition-transform duration-300 ease-in-out hover:scale-110">
+        <Link href="/get-credits" className="absolute bottom-4 left-4 inline-block bg-gradient-to-br from-blue-600 to-purple-600 py-2 px-4 rounded-lg text-lg font-medium shadow-md transition-transform duration-300 ease-in-out hover:scale-110">
           Try this Prompt
-        </a>
+        </Link>
       </div>
     </div>
   
@@ -139,7 +139,7 @@ const CategoryPage = () => {
             key={index}
             src={url}
             alt={`Gallery Image ${index}`}
-            className="snap-center w-32 h-48 opacity-80 hover:opacity-100 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-white shadow-lg transition-all duration-500 ease-in-out"
+            className="snap-center w-32 h-48 opacity-90 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-white shadow-lg"
             onClick={() => handleImageChange(index)}
           />
         ))}
