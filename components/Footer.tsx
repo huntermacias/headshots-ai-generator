@@ -2,14 +2,14 @@ import Link from 'next/link';
 
 export default function Footer() {
   const categories = [
-    "naughty-christmas", "naughty-halloween", "old-money",
-    "ai-yearbook", "y2k-aesthetic", "gorpcore", "tinder",
-    "instagram", "avatar-ai", "boudoir", "headshots",
-    "nightlife", "glamour", "ai-selfies", "street-style", "keynote-speaker",
-    "nature", "travel", "outdoor-adventure", "polaroid", "fitness", "music-festival",
-    "fitness-influencer", "virtual-try-on-clothes", "virtual-suits-try-on",
-    "swimsuit", "latex", "hot-latina", "cyberpunk-boudoir", "spiritual", "pink-fever",
-    "wedding", "birthday", "traditional-clothes", "graduation", "cosplay"
+    "naughty_christmas", "naughty_halloween", "old_money",
+    "ai_yearbook", "y2k_aesthetic", "gorpcore", "tinder",
+    "instagram", "avatar_ai", "boudoir", "headshots",
+    "nightlife", "glamour", "ai_elfies", "street_style", "keynote_speaker",
+    "nature", "travel", "outdoor_adventure", "polaroid", "fitness", "music_festival",
+    "fitness_influencer", "virtual_try_on_clothes", "virtual_suits_try_on",
+    "swimsuit", "latex", "hot_latina", "cyberpunk_boudoir", "spiritual", "pink_fever",
+    "wedding", "birthday", "traditional_clothes", "graduation", "cosplay"
   ];
 
 
@@ -29,7 +29,7 @@ export default function Footer() {
             <h3 className="text-gray-400 font-semibold">Explore</h3>
             <div className="grid grid-cols-2 gap-2">
               {categories.slice(0, 10).map((category, index) => (
-                <Link key={index} href={`/category?pack=${category}`} className="text-gray-300 hover:text-white transition-colors duration-300 capitalize">{category.replace(/-/g, ' ')} </Link>
+                <Link key={index} href={`/category?pack=${category}`} className="text-gray-300 hover:text-white transition-colors duration-300 capitalize">{category.replace(/_/g, ' ')} </Link>
               ))}
             </div>
           </div>

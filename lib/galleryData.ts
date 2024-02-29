@@ -14,7 +14,7 @@ type ImageData = {
 
 export const imageData: ImageData = {
     "images": {
-        "naughty-christmas": {
+        "naughty_christmas": {
             description: "Embrace the festive spirit with a seductive twist. Transform into captivating Christmas characters that blend holiday cheer with alluring elegance.",
             urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658360-a6dabec809175fb1b9ceed3c6190a5a3-3.jpg",
@@ -55,7 +55,7 @@ export const imageData: ImageData = {
             ]
         },
 
-        "naughty-halloween": {
+        "naughty_halloween": {
             description: "Unleash your inner villain or vixen this Halloween. Dive into a world where spooky meets sexy, perfect for a hauntingly attractive celebration.",
             urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658605-79ebe4c70cc896cb3d2779f32b6c558f-2.jpg",
@@ -93,7 +93,7 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706658416-cedc5116a140bbbbf096ada75928fb44-1.jpg"
             ],
         },
-            "old-money": {
+            "old_money": {
                 description: "Step into the luxurious life of old wealth. Elegance, sophistication, and timeless fashion converge in this collection, celebrating the opulent lifestyle of the past.",
                 urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706663723-09371e69e7f78f315de84c89df6aebd9-6.jpg",
@@ -131,7 +131,7 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1706021545-229242dc52270a68daab0c725c7d0fd4-10.jpg"
             ],
         },
-            "ai-yearbook": {
+            "ai_yearbook": {
                   description: "Create the ultimate memento with AI Yearbook. Turn your memories into stunning visuals that capture the essence of your school years with a modern twist.",
                   urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705978849-746b60b8df6d11ad95e467d51761464b-12.jpg",
@@ -169,7 +169,7 @@ export const imageData: ImageData = {
             ]
         },
         
-            "y2k-aesthetic": {
+            "y2k_esthetic": {
               description: "Relive the dawn of the millennium with the Y2K Aesthetic pack. Bold colors, futuristic designs, and early digital age vibes await.",
               urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706662131-c1b11c8597a2c0b07697a8f643e92963-4.jpg",
@@ -325,7 +325,7 @@ export const imageData: ImageData = {
 
         },
 
-            "avatar-ai": {
+            "avatar_ai": {
                 description: "Create a digital avatar that represents your unique style and personality. The Avatar AI pack offers a range of customizable characters and expressions.",
                 urls: [
                     "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705971731-cccc14d29a80cfcb709a58dd83f45ce7-1.jpg",
@@ -527,7 +527,7 @@ export const imageData: ImageData = {
             ],
         },
      
-            "ai-selfies": {
+            "ai_selfies": {
               description: "Reinvent the selfie with AI. Experiment with various styles, backdrops, and aesthetics to create personalized, eye-catching images.",
               urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706016910-6d81fa4b85c6aae9cc6134278e5b3188-11.jpg",
@@ -562,7 +562,7 @@ export const imageData: ImageData = {
             ],
         },
     
-            "street-style": {
+            "street_style": {
               description: "Showcase the raw, dynamic energy of urban fashion. Street Style is all about attitude, individuality, and the vibrant tapestry of city life.",
               urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705991965-181c9d8453717ae4147002e4d9cfdaff-1.jpg",
@@ -607,7 +607,7 @@ export const imageData: ImageData = {
             ],
         },
         
-            "keynote-speaker": {
+            "keynote_speaker": {
               description: "Command attention and convey authority with images suited for the professional speaker. Inspire your audience before you even take the stage.",
               urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705975924-63f07c40703b7da36b89dc4717f47953-8.jpg",
@@ -806,7 +806,7 @@ export const imageData: ImageData = {
             ],
         },
         
-            "music-festival": {
+            "music_festival": {
               description: "Feel the rhythm and energy of the festival scene. From electrifying performances to crowd euphoria, capture the essence of music's biggest moments.",
               urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706021335-822c56ea7d4c442b3251986139dda037-1.jpg",
@@ -846,7 +846,7 @@ export const imageData: ImageData = {
             ],
         },
         
-            "fitness-influencer": {
+            "fitness_influencer": {
               description: "Elevate your fitness journey with influencer-worthy shots. From workouts to wellness, these images inspire and motivate a fitness-focused audience.",
               urls: [
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660952-24f3535db4f4f644f07e1b213d879fa1-2.jpg",
@@ -885,7 +885,7 @@ export const imageData: ImageData = {
             ],
         },
        
-            "virtual-try-on-clothes": {
+            "virtual_try_on_clothes": {
               description: "Fashion meets technology. Explore different styles, outfits, and looks with virtual try-on images that make online shopping a breeze.",
               urls: [
 
@@ -925,7 +925,7 @@ export const imageData: ImageData = {
             ],
         },
         
-            "virtual-suits-try-on": {
+            "virtual_suits_try_on": {
               description: "Perfect for the modern gentleman. Virtual suits try-on offers a sophisticated array of business and formal wear, tailored to your digital persona.",
               urls: [
 
@@ -1048,7 +1048,7 @@ export const imageData: ImageData = {
                 "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=1000,quality=100/https://r2-us-west.photoai.com/1705988423-8d639f497279326b9f2baf600e4e146b-7.jpg"
             ],
         },
-            "hot-latina": {
+            "hot_latina": {
               description: "Transform yourself into a fiery, passionate Latina supermodel with the Hot Latina pack. These images are all about embracing your curves and your confidence.",
               urls: [
 
@@ -1090,7 +1090,7 @@ export const imageData: ImageData = {
             ],
         },
       
-            "cyberpunk-boudoir": {
+            "cyberpunk_boudoir": {
               description: "Try on futuristic fashion with the Cyberpunk Boudoir pack. These images are all about neon lights, high-tech style, and a touch of retro-futurism.",
               urls: [
 
@@ -1174,7 +1174,7 @@ export const imageData: ImageData = {
             ],
         },
      
-            "pink-fever": {
+            "pink_fever": {
               description: "Immerse yourself in a world bathed in shades of pink. From soft pastels to vibrant neons, Pink Fever is playful, romantic, and endlessly charming.",
               urls: [
 
@@ -1294,7 +1294,7 @@ export const imageData: ImageData = {
             ],
         },
        
-            "traditional-clothes": {
+            "traditional_clothes": {
               description: "Honor heritage and tradition with elegance. These images showcase the beauty and diversity of traditional attire from around the world.",
               urls: [
 

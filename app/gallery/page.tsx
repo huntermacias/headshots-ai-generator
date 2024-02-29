@@ -11,7 +11,7 @@ const Gallery = () => {
       {Object.entries(imageData.images).map(([key, value], index) => (
         <GalleryCard
           key={key} // Using `key` as the react key for better identity management
-          title={`${key.replace('-', ' ').toUpperCase()} COLLECTION`}
+          title={`${key.replaceAll('_', ' ').toUpperCase()} COLLECTION`}
           description={value.description}
           numPhotos={value.urls.length}
           timesSelected={`${index + 1 + Math.floor(Math.random() * (52))}`} // Simplified random logic

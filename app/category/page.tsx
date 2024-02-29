@@ -58,7 +58,7 @@ const CategoryPage = () => {
         <div className="lg:w-1/3  bg-opacity-75 p-6 rounded-xl shadow-xl backdrop-filter backdrop-blur-lg">
           <h1
             className="text-3xl tracking-wider font-semibold mb-6">
-            {categoryDetails.photoPack.toUpperCase().replace(/-/g, ' ')} SET
+            {categoryDetails.photoPack.toUpperCase().replace(/_/g, ' ')} SET
           </h1>
 
           <div className="text-white mb-6">
