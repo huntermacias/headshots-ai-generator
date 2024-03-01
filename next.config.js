@@ -4,7 +4,7 @@ const nextConfig = {
     serverActions: true,
   },
   images: {
-    domains: ['photoai.com'],
+    domains: ['photoai.com', 'api.producthunt.com'],
   },
 
   async generateMetadata() {
