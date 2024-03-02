@@ -61,13 +61,13 @@ export default function RootLayout({ children }: any) {
         <meta name="google-site-verification" content="Lp0KrHcd3_ppfo5PnwlqV2qALjCn1UDt15EXcg4Fc-w" />
       </Head>
 
-      <body className="min-h-screen flex flex-col bg-black/80 text-white font-sans">
+      <body className="h-screen flex flex-col  text-white font-sans">
         <section className="w-full">
           <Suspense fallback={<div className="text-center py-4">Loading...</div>}>
             <Navbar />
           </Suspense>
         </section>
-        <main className="flex-grow container mx-auto px-4 md:px-8 lg:px-16 xl:px-32 py-16">
+        <main className="flex-grow container-fluid px-4 md:px-8 lg:px-16 ">
           {children}
         </main>
         <Footer />

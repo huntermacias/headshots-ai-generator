@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { Button } from "./ui/button";
 import { HoverEffect } from "./ui/card-hover-effect";
 
 export default function PricingSection() {
@@ -68,10 +66,15 @@ const pricingOptions = [
 ];
 
   return (
-    <div className="w-full py-10">
-           <HoverEffect items={pricingOptions} />
-
-    </div>
+    <div className="w-full py-10 ">
+    <h2 className="text-center text-secondary text-2xl md:text-4xl lg:text-5xl font-extrabold">
+      Plans & Pricing
+    </h2>
+  
+    {/* HoverEffect is all my pricing cards rendered */}
+    <HoverEffect items={pricingOptions} />
+  </div>
+  
   );
 }
 

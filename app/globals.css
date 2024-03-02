@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body{
-  
-}
+
 
 @layer base {
   :root {
@@ -99,7 +97,7 @@ html, body{
 }
 
 .logos-slide {
-  animation: 25s slide infinite linear;
+  animation: 3s slide infinite linear;
 }
 
 /* Gallery.css */

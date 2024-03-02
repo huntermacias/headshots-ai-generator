@@ -59,14 +59,14 @@ export default async function Index() {
 
   return (
     <div className="min-h-screen bg-transparent text-white relative overflow-hidden">
-      <div className="absolute inset-0 w-full h-50 z-0">
+      <div className="absolute inset-0 z-0">
         <SparklesCore
           background="transparent"
           minSize={0.4}
-          maxSize={1}
-          particleDensity={200}
+          maxSize={1.4}
+          particleDensity={100}
           className="w-full h-full"
-          particleColor="#FFFFFF"
+          particleColor="#F9F07A"
         />
       </div>
 
@@ -128,10 +128,10 @@ export default async function Index() {
 
         {/* Trusted by Leading Professionals */}
         <section className="my-16 py-8 text-center">
-          <h2 className="text-4xl font-bold mb-12">
+          <h2 className="text-center text-secondary text-2xl md:text-4xl lg:text-5xl font-extrabold mb-12">
             Trusted by Leading Professionals
           </h2>
-          <div className="flex justify-center gap-4 overflow-x-auto p-4">
+          <div className=" flex justify-center gap-4 overflow-x-auto space-x-10 p-4 bg-gray-950/50 rounded-md">
             {logos.map((logo, index) => (
               <Image
                 key={index}
@@ -139,7 +139,7 @@ export default async function Index() {
                 alt={`Logo ${index + 1}`}
                 width={logo.width}
                 height={logo.height}
-                className="grayscale hover:grayscale-0 transition duration-300 ease-in-out"
+                className="grayscale hover:grayscale-0 px-2 transition duration-300 ease-in-out logos-slide"
               />
             ))}
           </div>
@@ -147,6 +147,8 @@ export default async function Index() {
 
         {/* Explainer & Pricing */}
         <ExplainerSection />
+
+        
         <PricingSection />
       </div>
     </div>
