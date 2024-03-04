@@ -75,7 +75,7 @@ export default async function Index() {
         <section className="text-center py-16 relative">
 
           <div className="relative z-10">
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 px-4">
+            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 px-4">
               Professional AI Headshots in Minutes
             </h1>
             <HeaderText />

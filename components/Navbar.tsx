@@ -33,64 +33,63 @@ export default async function Navbar() {
   } = await supabase.from("credits").select("*").eq("user_id", user?.id ?? '').single()
 
   return (
-    <nav className="flex w-full text-sm px-6 lg:px-20 py-3 border-b border-gray-600 items-center justify-between bg-black/30 shadow-md">
-      <Link href="/" passHref
-        className="text-lg font-bold text-blue-500 hover:text-blue-600/70 transition duration-300 ease-in-out">
-          Headshot Hub | AI Portraits
-        
-      </Link>
+    <nav className="flex w-full px-8 lg:px-24 py-4 items-center border-b border-gray-500 bg-gradient-to-r from-transparent via-purple-600/30 to-transparent text-white justify-between relative z-20">
+    <Link href="/" passHref
+      className="text-xl font-semibold tracking-wide hover:text-opacity-80 transition duration-200 ease-in-out">
+        Headshots AI
+    </Link>
+    <div className="flex gap-6">
+      {user ? (
+        <>
+          <Link href="/overview" passHref>
+            <Button variant="outline" className="text-white border border-white hover:border-transparent hover:bg-gradient-to-r from-purple-600 to-pink-600 hover:text-white transition duration-200 ease-in-out">
+              Home
+            </Button>
+          </Link>
+          {stripeIsConfigured && (
+            <Link href="/get-credits" passHref>
+              <Button variant="outline" className="text-white border border-white hover:border-transparent hover:bg-gradient-to-r from-purple-600 to-pink-600 hover:text-white transition duration-200 ease-in-out">
+                Get Credits
+              </Button>
+            </Link>
+          )}
+        </>
+      ) : (
+        <div className="space-x-4">
+          <Link href="/gallery" passHref>
+            <Button variant={'ghost'} className="bg-gradient-to-r from-cyan-500/50 to-blue-500/50 hover:from-cyan-600 hover:to-blue-600 text-white transition duration-200 ease-in-out">Gallery</Button>
+          </Link>
+          <Link href="/login" passHref>
+            <Button variant={'ghost'} className="bg-gradient-to-r from-cyan-500/50 to-blue-500/50 hover:from-cyan-600 hover:to-blue-600 text-white transition duration-200 ease-in-out">Login / Signup</Button>
+          </Link>
+        </div>
+      )}
+    </div>
+    {user && (
       <div className="flex items-center gap-4">
-        {user ? (
-          <>
-            <Link href="/overview" passHref
-              className="text-teal-500 bg-transparent hover:bg-teal-100 py-2 px-4 rounded-full transition ease-in-out duration-300">
-                Dashboard
-              
-            </Link>
-            {stripeIsConfigured && (
-              <Link href="/get-credits" passHref
-                className="text-teal-500 bg-transparent hover:bg-teal-100 py-2 px-4 rounded-full transition ease-in-out duration-300">
-                  Get Credits
-                
-              </Link>
-            )}
-          </>
-        ) : (
-          <>
-            <Link href="/gallery" passHref
-              className="text-blue-500 hover:bg-teal-500/30 py-1 px-2 rounded-md transition ease-in-out duration-300">
-                Gallery
-              
-            </Link>
-            <Link href="/login" passHref
-              className="text-blue-500 hover:bg-teal-500/30 py-1 px-2 rounded-md transition ease-in-out duration-300">
-                Login / Signup
-              
-            </Link>
-          </>
-        )}
-        {user && (
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <button className="focus:outline-none">
-                <AvatarIcon className="h-8 w-8 text-teal-500 hover:text-teal-600" />
-              </button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-white border border-gray-200 shadow-xl mt-2">
-              <DropdownMenuLabel className="p-2 font-medium text-gray-700">{user.email}</DropdownMenuLabel>
-              <DropdownMenuSeparator className="border-t border-gray-200" />
-              <form action="/auth/sign-out" method="post">
-                <DropdownMenuItem asChild>
-                  <button type="submit" className="w-full text-left p-2 hover:bg-teal-50 text-gray-700">
-                    Log out
-                  </button>
-                </DropdownMenuItem>
-              </form>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        )}
+        {stripeIsConfigured && <ClientSideCredits creditsRow={credits ? credits : null} />}
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <button className="focus:outline-none">
+              <AvatarIcon className="h-8 w-8 text-gray-300 hover:text-gray-200" />
+            </button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="bg-gradient-to-b from-gray-700 to-gray-900 border border-gray-600 shadow-lg mt-2">
+            <DropdownMenuLabel className="p-2 font-medium text-gray-300">{user.email}</DropdownMenuLabel>
+            <DropdownMenuSeparator className="border-t border-gray-600" />
+            <form action="/auth/sign-out" method="post">
+              <DropdownMenuItem asChild>
+                <button type="submit" className="w-full text-left p-2 hover:bg-gray-700 text-gray-200">
+                  Log out
+                </button>
+              </DropdownMenuItem>
+            </form>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
-    </nav>
+    )}
+  </nav>
+  
   );
 
 }

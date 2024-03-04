@@ -138,6 +138,7 @@ export const TypewriterEffectSmooth = ({
     );
   };
 
+
   return (
     <div className={cn("flex space-x-1 items-center justify-center", className)}>
       <motion.div
@@ -155,7 +156,7 @@ export const TypewriterEffectSmooth = ({
         }}
       >
         <div
-          className="text-xs sm:text-base md:text-xl lg:text:2xl xl:text-3xl font-extralight "
+          className="text-xs md:text-xl lg:text:2xl xl:text-3xl font-extralight "
           style={{
             whiteSpace: "nowrap",
           }}
