@@ -9,7 +9,7 @@ type ImageData = {
         [category: string]: ImagePack;
     };
 };
-// https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/
+
 
 
 export const imageData: ImageData = {
