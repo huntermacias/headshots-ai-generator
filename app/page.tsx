@@ -64,7 +64,7 @@ export default async function Index() {
           background="transparent"
           minSize={0.4}
           maxSize={1.4}
-          particleDensity={100}
+          particleDensity={80}
           className="w-full h-full"
           particleColor="#F9F07A"
         />
@@ -75,25 +75,21 @@ export default async function Index() {
         <section className="text-center py-16 relative">
 
           <div className="relative z-10">
-            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 px-4">
+            <h1 className="text-3xl md:text-5xl font-extrabold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500 px-4">
               Professional AI Headshots in Minutes
             </h1>
+
             <HeaderText />
 
-
-
             <Link href="/login">
-
-              <Button
+            <Button
                 className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-pink-600 hover:to-purple-600 text-white font-bold py-2 px-4 md:px-6 lg:px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50"
               >
                 Get Your Headshots
               </Button>
-
-
             </Link>
 
-            <p className="text-gray-400 italic mt-4">
+            <p className="text-lg text-gray-400 italic mt-4">
               Trusted by professionals worldwide. Quick and efficient.
             </p>
             <Link href="/login"
@@ -103,23 +99,7 @@ export default async function Index() {
             </Link>
           </div>
         </section>
-        {/* Premium Headshot Collections */}
-        <section className="py-16">
-          <h2 className="text-4xl font-bold text-center mb-12">
-            Premium Headshot Collections
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-            {selectedUrls.map((imageUrl, index) => (
-              <div key={index} className="overflow-hidden rounded-lg shadow-lg">
-                <img
-                  src={imageUrl}
-                  alt={`Image ${index + 1}`}
-                  className="transform hover:scale-110 transition duration-300 ease-out"
-                />
-              </div>
-            ))}
-          </div>
-        </section>
+       
 
         {/* Testimonials */}
         <Testimonials />
@@ -145,9 +125,25 @@ export default async function Index() {
 
         {/* Explainer & Pricing */}
         <ExplainerSection />
-
-        
         <PricingSection />
+
+         {/* Premium Headshot Collections */}
+         <section className="py-16">
+          <h2 className="text-4xl font-bold text-center mb-12">
+            Premium Headshot Collections
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+            {selectedUrls.map((imageUrl, index) => (
+              <div key={index} className="overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src={imageUrl}
+                  alt={`Image ${index + 1}`}
+                  className="transform hover:scale-110 transition duration-300 ease-out"
+                />
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );

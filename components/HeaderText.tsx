@@ -24,7 +24,7 @@ const moreWords = [
     className: "text-yellow-400 font-bold",
   },
   {
-    text: "for social profiles, resumes, and professional portfolios.",
+    text: "for social profiles, resumes, and portfolios.",
   },
 ]
   
