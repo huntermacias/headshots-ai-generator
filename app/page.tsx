@@ -32,7 +32,6 @@ const logos = [
   { src: '/fortune500/267.png', width: 128, height: 64 },
   { src: '/fortune500/286.png', width: 128, height: 64 },
 
-  // Add more logos here
 ];
 
 const allUrls = Object.values(imageData.images).flatMap(imagePack => imagePack.urls);
