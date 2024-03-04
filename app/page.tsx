@@ -19,18 +19,18 @@ import { HeaderText } from "@/components/HeaderText";
 export const dynamic = "force-dynamic";
 
 const logos = [
-  { src: '/fortune500-logos/001.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/016.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/028.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/032.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/033.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/081.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/083.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/443.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/187.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/264.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/267.png', width: 128, height: 64 },
-  { src: '/fortune500-logos/286.png', width: 128, height: 64 },
+  { src: '/fortune500/001.png', width: 128, height: 64 },
+  { src: '/fortune500/016.png', width: 128, height: 64 },
+  { src: '/fortune500/028.png', width: 128, height: 64 },
+  { src: '/fortune500/032.png', width: 128, height: 64 },
+  { src: '/fortune500/033.png', width: 128, height: 64 },
+  { src: '/fortune500/081.png', width: 128, height: 64 },
+  { src: '/fortune500/083.png', width: 128, height: 64 },
+  { src: '/fortune500/443.png', width: 128, height: 64 },
+  { src: '/fortune500/187.png', width: 128, height: 64 },
+  { src: '/fortune500/264.png', width: 128, height: 64 },
+  { src: '/fortune500/267.png', width: 128, height: 64 },
+  { src: '/fortune500/286.png', width: 128, height: 64 },
 
   // Add more logos here
 ];
