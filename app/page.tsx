@@ -32,6 +32,7 @@ const logos = [
   { src: '/fortune500/267.png', width: 128, height: 64 },
   { src: '/fortune500/286.png', width: 128, height: 64 },
 
+  // Add more logos here
 ];
 
 const allUrls = Object.values(imageData.images).flatMap(imagePack => imagePack.urls);
@@ -110,11 +111,9 @@ export default async function Index() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {selectedUrls.map((imageUrl, index) => (
               <div key={index} className="overflow-hidden rounded-lg shadow-lg">
-                <Image
+                <img
                   src={imageUrl}
                   alt={`Image ${index + 1}`}
-                  width={768}
-                  height={1152}
                   className="transform hover:scale-110 transition duration-300 ease-out"
                 />
               </div>
