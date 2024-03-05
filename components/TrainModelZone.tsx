@@ -78,11 +78,11 @@ export default function TrainModelZone() {
       const totalSize = files.reduce((acc, file) => acc + file.size, 0);
       const newSize = newFiles.reduce((acc, file) => acc + file.size, 0);
 
-      if (totalSize + newSize > 4.5 * 1024 * 1024) {
+      if (totalSize + newSize > 12.5 * 1024 * 1024) {
         toast({
           title: "Images exceed size limit",
           description:
-            "The total combined size of the images cannot exceed 4.5MB.",
+            "The total combined size of the images cannot exceed 12.5MB.",
           duration: 5000,
         });
         return;
