@@ -46,12 +46,10 @@ const CategoryPage = () => {
     <div className="relative container mx-auto px-4 py-8 max-w-7xl">
     {/* Subtle Background with Overlaid Gradient for Depth */}
     <div className="absolute inset-0 z-0 overflow-hidden rounded-lg">
-      <Image
+      <img
         src={images[currentImageIndex]}
         alt="Elegant Background"
         className="w-full h-full object-cover filter blur-3xl scale-110 transition-transform duration-1000 ease-in-out"
-        width={1920}
-        height={1080}
       />
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
     </div>
