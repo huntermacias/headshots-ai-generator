@@ -96,12 +96,10 @@ const CategoryPage = () => {
   
       {/* Main Image with Smooth Transition and Shadow */}
       <div className="relative w-full h-auto">
-        <Image
+        <img
           src={images[currentImageIndex]}
           alt={`Image ${currentImageIndex}`}
           className="w-full max-h-[95vh] object-cover rounded-2xl shadow-2xl transition-all duration-700 ease-in-out hover:scale-105"
-          width={1920}
-          height={1080}
         />
         <Link href="/get-credits" className="absolute bottom-4 left-4 inline-block bg-gradient-to-br from-blue-600 to-purple-600 py-2 px-4 rounded-lg text-lg font-medium shadow-md transition-transform duration-300 ease-in-out hover:scale-110">
           Try this Prompt
@@ -138,11 +136,9 @@ const CategoryPage = () => {
       {/* Refined Carousel with Improved Aesthetics */}
       <div className="mt-8 flex snap-x overflow-x-auto scrollbar-hide gap-2">
         {images.map((url, index) => (
-          <Image
+          <img
             key={index}
             src={url}
-            height={1920}
-            width={1080}
             alt={`Gallery Image ${index}`}
             className="snap-center w-32 h-48 opacity-90 object-cover rounded-lg cursor-pointer border-2 border-transparent hover:border-white shadow-lg"
             onClick={() => handleImageChange(index)}
