@@ -5,6 +5,7 @@ type ImagePack = {
 };
 
 type ImageData = {
+    [x: string]: any;
     images: {
         [category: string]: ImagePack;
     };
@@ -934,15 +935,15 @@ export const imageData: ImageData = {
         "nature": {
             description: "Immerse yourself in the beauty of the natural world. From serene landscapes to the wild untamed, these images celebrate the planet's breathtaking diversity.",
             urls: [
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027243-44c794f8b6ed3075308c51ea66c84809-2.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677896-da5eaf9d4fc1b038f49d54c9fa4467ed-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027545-9a75b448d294a38e0cb745fae121ba15-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989166-166b7c37f46e2f76afbe2af1dc92889b-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989230-6e227dbe6128191641f752c6d55b2add-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677896-da5eaf9d4fc1b038f49d54c9fa4467ed-2.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027243-44c794f8b6ed3075308c51ea66c84809-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027461-e980fda7e69fe9e2bc1869a744227afc-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706678127-228c9ee022c5be1cf74984bd8aa3bbac-4.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677889-36a8a157d14f16e56ce703566fb42937-4.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705989166-166b7c37f46e2f76afbe2af1dc92889b-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706678205-4d18497bc50fd30ab218b96ea59b6caf-1.jpg",
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027545-9a75b448d294a38e0cb745fae121ba15-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027419-1e5f760f425d06c084115725c049e3ac-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706677840-edda37b5adf976b8b3622b2ee5c8b4ef-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706027377-c0610ea620657578e91cf32d5d10c9fa-3.jpg",
@@ -1021,11 +1022,11 @@ export const imageData: ImageData = {
         "polaroid": {
             description: "Nostalgia meets modernity with the Polaroid pack. These images offer a timeless, candid charm that's perfect for capturing genuine moments.",
             urls: [
-                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706015623-4374084b129f13ee30fb9943ef2ebbd0-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706658059-ae43e36fc3eb7d2ff6183cf17ba3b9ec-8.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706015553-c7aaddc09b17a15c8551ba0cf36d83a0-7.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660061-df47424081aae7958ee467269617f5eb-16.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706022156-c444ccf76b8ce25ef4d54e29c01fa722-3.jpg",
+                "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706015623-4374084b129f13ee30fb9943ef2ebbd0-3.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660005-de2e28bf42b91fa3dc8f52c1dedd8b3d-9.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706015553-c7aaddc09b17a15c8551ba0cf36d83a0-16.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706660033-383d2a61a80fa262d79184b6f45109ed-9.jpg",
@@ -1561,8 +1562,8 @@ export const imageData: ImageData = {
             description: "Make every birthday unforgettable with vibrant, joyous imagery. Celebrate life's milestones with photos that are as unique and special as you are.",
             urls: [
 
-                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980484-c6fee68345cbd015bbfe9c377dd50315-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980427-6514d01b54488df513558a3c55378079-1.jpg",
+                "https://photoai.com/cdn-cgi/image/format=jpeg,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980484-c6fee68345cbd015bbfe9c377dd50315-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980617-48642f18189bb1f39d397ab1f3459709-1.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1705980638-862c6c846249c9a2d53296570105badb-2.jpg",
                 "https://photoai.com/cdn-cgi/image/format=auto,fit=cover,width=512,height=768,quality=100/https://r2-us-west.photoai.com/1706659201-2964e3116f1b7f6179c54c60fc32ca96-1.jpg",

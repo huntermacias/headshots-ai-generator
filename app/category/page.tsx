@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { ArrowLeftSquare } from 'lucide-react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import Image from 'next/image';
+import GalleryCard from '@/components/galleryCard';
 
 const CategoryPage = () => {
   const searchParams = useSearchParams();
@@ -44,6 +45,24 @@ const CategoryPage = () => {
 
   return (
     <div className="relative container mx-auto px-4 py-8 max-w-7xl">
+      {/* Hero Section */}
+      <div className="bg-black mb-12 p-12 rounded-lg shadow-lg relative overflow-hidden">
+        <Image
+          src={images[currentImageIndex]}
+          alt="Dynamic Hero Background"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-30"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-800 to-indigo-900 opacity-75"></div>
+        <div className="relative z-10 text-center text-white">
+          <h1 className="text-6xl font-bold mb-4">Discover the Art of Photography</h1>
+          <p className="text-xl mb-6">Capture life's moments with AI-powered precision. Dive into the {categoryDetails.photoPack.replaceAll('_', ' ')} collection.</p>
+          <Link href="/get-credits" className="bg-gradient-to-br from-pink-500 to-purple-500 py-2 px-4 rounded-full text-lg font-medium shadow-md hover:shadow-lg transition duration-300 ease-in-out">
+            Explore Now
+          </Link>
+        </div>
+      </div>
       {/* Subtle Background with Overlaid Gradient for Depth */}
       <div className="absolute inset-0 z-0 overflow-hidden rounded-lg">
         <img
@@ -96,15 +115,15 @@ const CategoryPage = () => {
 
         {/* Main Image with Smooth Transition and Shadow */}
         <div className="relative w-full flex justify-center items-center overflow-hidden rounded-2xl shadow-2xl">
-    <img
-      src={images[currentImageIndex]}
-      alt={`Image ${currentImageIndex}`}
-      className="max-w-full max-h-[95vh] object-contain rounded-2xl transition-all duration-700 ease-in-out hover:scale-105"
-    />
-    <Link href="/get-credits" className="absolute bottom-4 left-4 bg-gradient-to-br from-blue-600 to-purple-600 py-2 px-4 rounded-lg text-lg font-medium text-white shadow-md transition-transform duration-300 ease-in-out hover:scale-110">
-      Try this Prompt
-    </Link>
-</div>
+          <img
+            src={images[currentImageIndex]}
+            alt={`Image ${currentImageIndex}`}
+            className="max-w-full max-h-[95vh] object-contain rounded-2xl transition-all duration-700 ease-in-out hover:scale-105"
+          />
+          <Link href="/get-credits" className="absolute bottom-4 left-8 bg-gradient-to-br from-blue-600 to-purple-600 py-2 px-4 rounded-lg text-lg font-medium text-white shadow-md transition-transform duration-300 ease-in-out hover:scale-110">
+            Try this Prompt
+          </Link>
+        </div>
 
 
       </div>
@@ -147,6 +166,20 @@ const CategoryPage = () => {
             />
           ))}
         </div>
+
+        <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+      {Object.entries(imageData.images).slice(0,4).map(([key, value], index) => (
+        <GalleryCard
+          key={key} // Using `key` as the react key for better identity management
+          title={`${key.replaceAll('_', ' ').toUpperCase()} COLLECTION`}
+          description={value.description}
+          numPhotos={value.urls.length}
+          timesSelected={`${index + 1 + Math.floor(Math.random() * (52))}`} // Simplified random logic
+          imageUrls={value} // Directly passing the `value` object which should match expected shape
+          slug={key}
+        />
+      ))}
+    </div>
       </div>
     </div>
 

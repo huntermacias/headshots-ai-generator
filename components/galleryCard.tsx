@@ -1,5 +1,6 @@
+'use client'
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 interface GalleryCardProps {
   title: string;
@@ -23,47 +24,67 @@ const GalleryCard: React.FC<GalleryCardProps> = ({
     ? imageUrls.urls.slice(0, 2)
     : [...imageUrls.urls, ...Array(2 - imageUrls.urls.length).fill(baseUrl + 'default.jpg')];
 
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const handleImageChange = (index: number) => {
+    setCurrentImageIndex(index);
+  };
+
+
+
   return (
-    <Link href={`/category?pack=${slug}`} className="group">
-      <div className="block w-full overflow-hidden rounded-2xl transform hover:scale-105 transition-all duration-500 ease-in-out bg-gradient-to-br from-gray-900 to-black">
-        <div className="relative">
-          <div className='flex justify-center mt-4 space-x-4 overflow-x-auto p-4 snap-x snap-mandatory'>
-            {displayImageUrls.map((url, index) => (
+    <Link href={`/category?pack=${slug}`} className="container mx-auto mt-16 group block rounded-xl overflow-hidden shadow-2xl transform transition duration-500 hover:scale-110 bg-black/30 bg-opacity-90 hover:bg-opacity-100">
+      <div className="relative">
+        {/* Dynamic Image Carousel with Layered Animation */}
+        <div className='carousel relative w-full h-80 overflow-hidden'>
+          {displayImageUrls.map((url, index) => (
+            <div
+              key={index}
+              className={`carousel-item absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'} transform scale-100`}
+            >
               <img
-                key={index}
                 loading="lazy"
                 src={url}
                 alt={`Image ${index + 1}`}
-                className='min-w-[140px] h-full object-cover rounded-xl opacity-90 hover:opacity-100 transition-opacity duration-300 ease-in-out transform group-hover:scale-[1.03] snap-center'
+                className='w-full h-full object-contain p-2 rounded-xl opacity-90 hover:opacity-100 transition-opacity duration-300 ease-in-out'
               />
-            ))}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black opacity-50 group-hover:opacity-20 transition-opacity duration-500 ease-in-out"></div>
-          </div>
+            </div>
+          ))}
+          {/* Enhanced Gradient Overlay for Depth and Focus */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/30 to-transparent"></div>
         </div>
-        <div className="px-6 py-4 bg-opacity-90 backdrop-filter backdrop-blur-sm">
-          <h3 className="text-lg md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 mb-2">
-            {title.toUpperCase()}
+
+
+        {/* Animated Content Overlay for Immersive Experience */}
+        <div className="absolute bottom-0 w-full p-6 transition-all duration-500 ease-in-out group-hover:bg-black/50">
+          <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 mb-3 transition-colors duration-500 ease-in-out">
+            {title.toUpperCase().replace(/_/g, ' ')}
           </h3>
-          <p className="text-md md:text-lg text-gray-300">
+          <p className="text-xs text-gray-300 mb-6 transition-opacity duration-500 ease-in-out group-hover:text-gray-200">
             {description}
           </p>
-        </div>
-        <div className="px-6 pt-4 pb-2 mb-8 flex justify-between items-center rounded-b-2xl">
-          <span className="flex items-center text-sm md:text-md bg-blue-700 text-white rounded-full px-4 py-2">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path d="M15 10l4.55-4.55a1 1 0 011.42 0l2.12 2.12a1 1 0 010 1.41L18.43 14m-5 5L5 14l4-4m5 5l4.55 4.55a1 1 0 001.42 0l2.12-2.12a1 1 0 000-1.41L18.43 10m-5-5L5 10l4 4m0 0l-4 4m4-4h12" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            {numPhotos} Photos
-          </span>
-          <span className="flex items-center text-sm md:text-md bg-purple-600 text-white rounded-full px-4 py-2">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm4 7a1 1 0 100-2 1 1 0 000 2zm5-1a5 5 0 11-10 0 5 5 0 0110 0z" clip-rule="evenodd" />
-            </svg>
-            {timesSelected}x this week
-          </span>
+
+          {/* Interactive Stats with Visual Feedback */}
+          <div className="flex justify-between items-center">
+            <div className="flex items-center gap-3">
+              <svg className="w-6 h-6 text-green-400 transition-colors duration-300 ease-in-out group-hover:text-green-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6.5V5a2 2 0 012-2h2.172a2 2 0 011.414.586l1.828 1.828A2 2 0 0013.828 5H16a2 2 0 012 2v1.5M4 6.5v11a2 2 0 002 2h12a2 2 0 002-2v-11M4 6.5H3m18 0h1m-1 0a9 9 0 11-18 0m18 0h1m-9 5a3 3 0 100 6 3 3 0 000-6z" />
+              </svg>
+              <span className="text-lg font-medium text-white transition-opacity duration-300 ease-in-out group-hover:opacity-90">{numPhotos} Photos</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <svg className="w-6 h-6 text-purple-400 transition-colors duration-300 ease-in-out group-hover:text-purple-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.37 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.785.57-1.84-.197-1.54-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.782-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z" />
+              </svg>
+              <span className="text-lg font-medium text-white transition-opacity duration-300 ease-in-out group-hover:opacity-90">{timesSelected}x this week</span>
+            </div>
+          </div>
         </div>
       </div>
     </Link>
+
+
+
 
   );
 };
