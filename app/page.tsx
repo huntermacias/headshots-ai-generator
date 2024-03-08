@@ -59,7 +59,7 @@ export default async function Index() {
 
   return (
     <div className="min-h-screen bg-transparent text-white relative overflow-hidden">
-      <div className="absolute inset-0 z-0">
+      {/* <div className="absolute inset-0 z-0">
         <SparklesCore
           background="transparent"
           minSize={0.4}
@@ -68,7 +68,7 @@ export default async function Index() {
           className="w-full h-full"
           particleColor="#F9F07A"
         />
-      </div>
+      </div> */}
 
       <div className="max-w-7xl mx-auto p-6 relative z-20">
 
