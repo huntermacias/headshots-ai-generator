@@ -8,16 +8,18 @@ export default function Messages() {
   const message = searchParams.get("message");
   return (
     <>
-      {error && (
-        <p className="p-4 rounded-md border bg-red-200 border-red-300 text-gray-800 text-center text-sm">
-          {error}
-        </p>
-      )}
-      {message && (
-        <p className="p-4 rounded-md border bg-green-200 border-green-300 text-gray-800 text-center text-sm">
-          {message}
-        </p>
-      )}
+       {error && (
+      <div className="p-4 my-4 rounded-lg shadow-md bg-red-100 border border-red-400 text-red-700 text-center">
+        <h3 className="font-semibold">Oops! Something went wrong.</h3>
+        <p>{error}</p>
+      </div>
+    )}
+    {message && (
+      <div className="p-4 my-4 rounded-lg shadow-md bg-green-100 border border-green-400 text-green-700 text-center">
+        <h3 className="font-semibold">Success!</h3>
+        <p>{message}</p>
+      </div>
+    )}
     </>
   );
 }
