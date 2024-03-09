@@ -585,13 +585,13 @@ export const imageData: ImageData = {
 
         },
 
-        "Tease Throughs": {
-            description: "Explore the stunning teasing pack. Show off your curves and style with these stunning looks.",
-            urls: [
-                "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d37477ff-eb1c-4a1c-a6b9-6dbd76c56ce4/original=true/00028-2128955303.jpeg",
-                "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d24057a3-ac4f-4dc5-8dcd-32c4be0ebc16/width=450/00020-1081532649.jpeg",
-            ]
-        },
+        // "Tease Throughs": {
+        //     description: "Explore the stunning teasing pack. Show off your curves and style with these stunning looks.",
+        //     urls: [
+        //         "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d37477ff-eb1c-4a1c-a6b9-6dbd76c56ce4/original=true/00028-2128955303.jpeg",
+        //         "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d24057a3-ac4f-4dc5-8dcd-32c4be0ebc16/width=450/00020-1081532649.jpeg",
+        //     ]
+        // },
 
         "avatar_ai": {
             description: "Create a digital avatar that represents your unique style and personality. The Avatar AI pack offers a range of customizable characters and expressions.",
