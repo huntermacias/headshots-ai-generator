@@ -15,7 +15,7 @@ export default function Messages() {
       </div>
     )}
     {message && (
-      <div className="p-4 my-4 rounded-lg shadow-md bg-green-100 border border-green-400 text-green-700 text-center">
+      <div className="p-1 my-4 rounded-lg shadow-md bg-green-400 border border-green-400 text-green-700 text-center">
         <h3 className="font-semibold">Success!</h3>
         <p>{message}</p>
       </div>

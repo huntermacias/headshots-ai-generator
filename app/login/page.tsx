@@ -39,7 +39,7 @@ export default function Login() {
         </form>
         <div className="mt-6 text-center text-md text-gray-200">
           By signing up, you agree to our
-          <Link href="#" className="ml-1 underline text-white hover:text-blue-300"> Terms of Service </Link>
+          <Link href="/TOS" className="ml-1 underline text-white hover:text-blue-300"> Terms of Service </Link>
           and
           <Link href="#" className="ml-1 underline text-white hover:text-blue-300"> Privacy Policy</Link>.
         </div>

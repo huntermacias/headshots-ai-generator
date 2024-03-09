@@ -59,17 +59,6 @@ export default async function Index() {
 
   return (
     <div className="min-h-screen bg-transparent text-white relative overflow-hidden">
-      {/* <div className="absolute inset-0 z-0">
-        <SparklesCore
-          background="transparent"
-          minSize={0.4}
-          maxSize={1.4}
-          particleDensity={80}
-          className="w-full h-full"
-          particleColor="#F9F07A"
-        />
-      </div> */}
-
       <div className="max-w-7xl mx-auto p-6 relative z-20">
 
         <section className="text-center py-16 relative">
