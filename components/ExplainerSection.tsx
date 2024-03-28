@@ -8,11 +8,11 @@ export default function ExplainerSection() {
   return (
     <div className="flex flex-col items-center justify-center w-full min-h-screen bg-black bg-opacity-70 p-4 rounded-md">
       {/* Hero section with video introduction */}
-      <div className="w-full max-w-md overflow-hidden rounded-lg shadow-lg mb-8">
+      {/* <div className="w-full max-w-md overflow-hidden rounded-lg shadow-lg mb-8">
         <video autoPlay loop muted playsInline className="w-full">
         <source src={"/aiheadshotprev.mp4"} type="video/mp4" />
         </video>
-      </div>
+      </div> */}
 
       {/* How It Works Section */}
       <section className="text-center mt-1 px-4">
